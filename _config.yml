@@ -20,7 +20,7 @@ redcarpet:
   comments :
     provider : duoshuo
     duoshuo :
-      short_name : seeker
+      short_name : redrum
 
 navigations:
   - title: About

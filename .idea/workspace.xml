@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1568e202-d335-4939-81b0-e66b6ba4e8a9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/img/about/node.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/about/node.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-04-post1.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-06-post2.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-11-post3.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-12-post4.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-13-post5.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/2015/08/04/post1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/2015/08/06/post2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/2015/08/11/post3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/2015/08/12/post4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/2015/08/13/post5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/redrum1900.github.io.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/100327002911.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/100327003054.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/100327003214.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/1305388964_JRzA_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/2011082417242348.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/2f801e1db1bc474eabb71037d73dfddf_b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/31160727-a7d9a4d0a64a4f4b83a831980273450d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/375102e721925d18e6ac4e994a5ace8f.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/39b9724c51eec0a4380d0ca5e44cb227.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/46cd0009e64bd4665e001304e665e9cd.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/5657919_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/7702.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/7a899e510fb30f2440d33c63c895d143ad4b0300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/900x600_A9FVD2A84T8F0001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/Aaron_Swartz_at_Boston_Wikipedia_Meetup,_2009-08-18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/Cpb7Fx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/IMG_20150425_154318.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/TCP_IP.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/ae52f886642e0019fa0973268eeb08b4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/autocorrect_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/autocorrect_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/cd_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/cd_aliases.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/cd_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/chsh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/fail_prompt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/git_aliases.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/git_prompt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_large_files.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_recursive.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_rm_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_rm_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_time_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_time_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_wc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/history_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/history_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/keyboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/kill_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/kill_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/ls_shorthand_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/ls_shorthand_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/movie/lian.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/movie/lian2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/movie/luobin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/movie/luobin2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/mylove/molokai.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/mylove/sublime.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/mylove/ubuntu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_hanshutuxing.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_http协议学习-12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_huan.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_liucheng.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_lun.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_shuan.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_slun.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_weizhi.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_yanshi1.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_yanshi2.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_yanshi3.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_yanshi4.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_yanshi5.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/path_expansion_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/path_expansion_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/rake_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/rake_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/rango.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/source/github-128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/source/github-32-beta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/source/github-32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/source/github-48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/switch_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/switch_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/tab_names.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/tcp-ip-handshark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/types_map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/u=220219588,1869709485&amp;fm=23&amp;gp=0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/vim_mode_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/vim_mode_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/屏幕快照 2015-02-22 上午9.50.16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/100327002911.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/100327003054.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/100327003214.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1305388964_JRzA_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2011082417242348.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2f801e1db1bc474eabb71037d73dfddf_b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/31160727-a7d9a4d0a64a4f4b83a831980273450d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/375102e721925d18e6ac4e994a5ace8f.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/39b9724c51eec0a4380d0ca5e44cb227.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/46cd0009e64bd4665e001304e665e9cd.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/5657919_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/7702.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/7a899e510fb30f2440d33c63c895d143ad4b0300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/900x600_A9FVD2A84T8F0001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Aaron_Swartz_at_Boston_Wikipedia_Meetup,_2009-08-18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Cpb7Fx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/IMG_20150425_154318.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TCP_IP.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ae52f886642e0019fa0973268eeb08b4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/autocorrect_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/autocorrect_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cd_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cd_aliases.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cd_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/chsh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fail_prompt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/git_aliases.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/git_prompt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_large_files.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_recursive.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_rm_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_rm_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_time_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_time_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_wc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/history_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/history_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/keyboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/kill_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/kill_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ls_shorthand_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ls_shorthand_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/movie/lian.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/movie/lian2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/movie/luobin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/movie/luobin2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mylove/molokai.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mylove/sublime.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mylove/ubuntu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_hanshutuxing.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_http协议学习-12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_huan.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_liucheng.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_lun.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_shuan.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_slun.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_weizhi.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_yanshi1.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_yanshi2.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_yanshi3.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_yanshi4.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_yanshi5.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/path_expansion_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/path_expansion_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rake_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rake_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rango.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/source/github-128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/source/github-32-beta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/source/github-32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/source/github-48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/switch_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/switch_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tab_names.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tcp-ip-handshark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/types_map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/u=220219588,1869709485&amp;fm=23&amp;gp=0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vim_mode_after.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vim_mode_before.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/屏幕快照 2015-02-22 上午9.50.16.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twd/index.html" afterPath="$PROJECT_DIR$/Twd/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/Twd/index.html" afterPath="$PROJECT_DIR$/_site/Twd/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/archive/index.html" afterPath="$PROJECT_DIR$/_site/archive/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/categories/index.html" afterPath="$PROJECT_DIR$/_site/categories/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
+    </list>
+    <ignored path="redrum1900.github.io.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="redrum1900.github.io" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="2015-08-12-post4.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-08-12-post4.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1020">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-08-04-post1.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-08-04-post1.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="4410">
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="6.5833335" vertical-offset="158" max-vertical-offset="525">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.666667" vertical-offset="353" max-vertical-offset="1500">
+              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47493404" vertical-offset="0" max-vertical-offset="379">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="285">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-08-06-post2.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-08-06-post2.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2475">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-08-13-post5.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-08-13-post5.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-08-11-post3.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-08-11-post3.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="270">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="300">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_site/archive/index.html" />
+        <option value="$PROJECT_DIR$/_site/Twd/index.html" />
+        <option value="$PROJECT_DIR$/Twd/index.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_site/tags/index.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_site/index.html" />
+        <option value="$PROJECT_DIR$/_posts/2009-04-29-slap-chop.md" />
+        <option value="$PROJECT_DIR$/_site/categories/index.html" />
+        <option value="$PROJECT_DIR$/_site/README.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-08-16-hello.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-08-04-post1" />
+        <option value="$PROJECT_DIR$/_posts/2015-08-04-post1.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-08-12-hello.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-08-06-post2.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-08-11-post3.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-08-13-post5.md" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="737" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redrum1900.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redrum1900.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redrum1900.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redrum1900.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redrum1900.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1568e202-d335-4939-81b0-e66b6ba4e8a9" name="Default" comment="" />
+      <created>1439721462033</created>
+      <option name="number" value="Default" />
+      <updated>1439721462033</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="737" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33023256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_site/archive/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.125" vertical-offset="2127" max-vertical-offset="2685">
+          <caret line="150" column="87" selection-start-line="150" selection-start-column="87" selection-end-line="150" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8625" max-vertical-offset="13365">
+          <caret line="584" column="2" selection-start-line="584" selection-start-column="2" selection-end-line="584" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4583335" vertical-offset="2074" max-vertical-offset="2700">
+          <caret line="147" column="4" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/tags/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8333335" vertical-offset="2299" max-vertical-offset="2925">
+          <caret line="161" column="36" selection-start-line="161" selection-start-column="36" selection-end-line="161" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/Twd/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.75" vertical-offset="62502" max-vertical-offset="63225">
+          <caret line="4168" column="13" selection-start-line="4168" selection-start-column="13" selection-end-line="4168" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4680">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="407">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/custom/duoshuo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="394">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twd/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.125" vertical-offset="62367" max-vertical-offset="63225">
+          <caret line="4166" column="46" selection-start-line="4166" selection-start-column="38" selection-end-line="4166" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.2083335" vertical-offset="2375" max-vertical-offset="2715">
+          <caret line="150" column="4" selection-start-line="150" selection-start-column="4" selection-end-line="150" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="407">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2916667" vertical-offset="65" max-vertical-offset="435">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="690">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/categories/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-40.625" vertical-offset="1380" max-vertical-offset="3195">
+          <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
+          <folding>
+            <marker date="1439732939000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="407">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="407">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="885">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="300">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="285">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-08-13-post5.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-08-12-post4.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-08-11-post3.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="270">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-08-06-post2.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2475">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-08-04-post1.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="4410">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.5833335" vertical-offset="158" max-vertical-offset="525">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.666667" vertical-offset="353" max-vertical-offset="1500">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47493404" vertical-offset="0" max-vertical-offset="379">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

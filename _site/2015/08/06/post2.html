@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>404</title>
+<title>InAppBrowser使用心得</title>
 <link rel="shortcut icon" href=" /img/github.ico"/>
 <link rel="bookmark" href="/img/github.ico"/>
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="HTML,CSS">
-<link rel="canonical" href="redrum1900.github.io/404.html">
+<link rel="canonical" href="redrum1900.github.io/2015/08/06/post2.html">
 <!-- Custom CSS -->
 <link rel="stylesheet" href="/css/main.css">
 <link rel="stylesheet" href="/css/github.css">
@@ -18,8 +18,6 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="/js/jquery.js"></script>
 <script src="/js/function_about.js"></script>
-<!--  -->
-<!-- <meta http-equiv="refresh" content="5; url=/"> -->
 <!--  -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -81,17 +79,166 @@
         <div class="page-content">
             <div class="wrap">
                 <div class="post">
-
     <header class="post-header">
-        <h1>404</h1>
+        <h1><a href="/2015/08/06/post2.html">InAppBrowser使用心得</a></h1>
+        <p class="meta"><i class="fa fa-calendar"></i> 2015-08-06&nbsp&nbsp&nbsp<i class="fa fa-folder-open"></i> <a href="/categories/#前端">前端</a> &nbsp&nbsp&nbsp<i class="fa fa-tags"></i>&nbsp&nbsp<a href="/tags/#ionic">ionic</a></p>
     </header>
-
     <article class="post-content">
-        <!-- search children -->
-<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8"></script>
+        <p><strong>1.安装inAppBrowser</strong></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ cordova plugin add org.apache.cordova.inappbrowser
+$ cordova plugin ls
+[ &#39;org.apache.cordova.inappbrowser&#39; ]
+$ cordova plugin rm org.apache.cordova.inappbrowser   //移除
+</code></pre></div>
+<p><strong>2.配置</strong></p>
 
+<ul>
+<li><p>Amazon Fire OS (in res/xml/config.xml)</p>
+
+<p><feature name="InAppBrowser">
+  <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+  </feature></p></li>
+<li><p>Android (in res/xml/config.xml)</p>
+
+<p><feature name="InAppBrowser">
+  <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+  </feature></p></li>
+<li><p>iOS (in the named application directory&#39;s config.xml)</p>
+
+<p><feature name="InAppBrowser">
+  <param name="ios-package" value="CDVInAppBrowser" />
+  </feature></p></li>
+<li><p>Windows Phone 7 and 8 (in config.xml)</p>
+
+<p><feature name="InAppBrowser" /></p></li>
+</ul>
+
+<p><strong>3.新建浏览器</strong></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">  var ref = window.open(url, target, options);
+</code></pre></div>
+<p>options可以设置浏览器参数：</p>
+
+<ul>
+<li> itemclosebuttoncaption：关闭按钮名称
+
+<ul>
+<li>location：是否显示当前网页地址</li>
+<li>toolbar：是否显示工具栏
+等等还有很多</li>
+</ul></li>
+</ul>
+
+<p><strong>4.该对象有3个方法</strong></p>
+
+<ul>
+<li> addEventListener()添加监听</li>
+<li> removeEventListener()移除监听</li>
+<li> close()关闭浏览器</li>
+</ul>
+
+<p>例子：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot; src=&quot;cordova.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;
+
+// Wait for device API libraries to load
+//
+document.addEventListener(&quot;deviceready&quot;, onDeviceReady, false);
+
+// Global InAppBrowser reference
+var iabRef = null;
+
+function iabLoadStart(event) {
+    alert(event.type + &#39; - &#39; + event.url);
+}
+
+function iabLoadStop(event) {
+    alert(event.type + &#39; - &#39; + event.url);
+}
+
+function iabLoadError(event) {
+    alert(event.type + &#39; - &#39; + event.message);
+}
+
+function iabClose(event) {
+     alert(event.type);
+     iabRef.removeEventListener(&#39;loadstart&#39;, iabLoadStart);
+     iabRef.removeEventListener(&#39;loadstop&#39;, iabLoadStop);
+     iabRef.removeEventListener(&#39;loaderror&#39;, iabLoadError);
+     iabRef.removeEventListener(&#39;exit&#39;, iabClose);
+}
+
+// device APIs are available
+//
+function onDeviceReady() {
+     iabRef = window.open(&#39;http://apache.org&#39;, &#39;_blank&#39;, &#39;location=yes&#39;);
+     iabRef.addEventListener(&#39;loadstart&#39;, iabLoadStart);
+     iabRef.addEventListener(&#39;loadstop&#39;, iabLoadStop);
+     iabRef.addEventListener(&#39;loaderror&#39;, iabLoadError);
+     iabRef.addEventListener(&#39;exit&#39;, iabClose);
+}
+
+&lt;/script&gt;
+</code></pre></div>
+<ul>
+<li>loadstart - InAppBrowser开始加载网页时候触发</li>
+<li>loadstop - InAppBrowser网页加载完成触发</li>
+<li>loaderror - InAppBrowser加载网页出错的时候触发</li>
+<li>exit - InAppBrowser窗口关闭的时候触发</li>
+</ul>
+
+<p><strong>5.添加JS语句</strong></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">ref.executeScript(details, callback);
+</code></pre></div>
+<p>details可以传js文件，也可以传代码。</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">var ref = window.open(&#39;http://apache.org&#39;, &#39;_blank&#39;, &#39;location=yes&#39;);
+ref.addEventListener(&#39;loadstop&#39;, function() {
+ref.executeScript({file: &quot;myscript.js&quot;});
+});
+</code></pre></div>
+<p>使用executeScript也可以实现向页面传递参数。</p>
+
+<p>例子</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot; src=&quot;cordova.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;
+
+// Wait for device API libraries to load
+//
+document.addEventListener(&quot;deviceready&quot;, onDeviceReady, false);
+
+// Global InAppBrowser reference
+var iabRef = null;
+
+// Inject our custom JavaScript into the InAppBrowser window
+//
+function replaceHeaderImage() {
+    iabRef.executeScript({
+        code: &quot;var img=document.querySelector(&#39;#header img&#39;); img.src=&#39;http://cordova.apache.org/images/cordova_bot.png&#39;;&quot;
+    }, function() {
+        alert(&quot;Image Element Successfully Hijacked&quot;);
+    });
+}
+
+function iabClose(event) {
+     iabRef.removeEventListener(&#39;loadstop&#39;, replaceHeaderImage);
+     iabRef.removeEventListener(&#39;exit&#39;, iabClose);
+}
+
+// device APIs are available
+//
+function onDeviceReady() {
+     iabRef = window.open(&#39;http://apache.org&#39;, &#39;_blank&#39;, &#39;location=yes&#39;);
+     iabRef.addEventListener(&#39;loadstop&#39;, replaceHeaderImage);
+     iabRef.addEventListener(&#39;exit&#39;, iabClose);
+}
+
+&lt;/script&gt;
+</code></pre></div>
     </article>
-
+    <!-- Duoshuo Comment BEGIN -->
+    <div id="comments">
+        <div class="ds-thread" data-thread-key="/2015/08/06/post2"  data-title="InAppBrowser使用心得 - Redrum's Blog"></div>
+    </div>
+<!-- Duoshuo Comment END -->
 </div>
 
             </div>

@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>404</title>
+<title>ionic 安卓平台跨域</title>
 <link rel="shortcut icon" href=" /img/github.ico"/>
 <link rel="bookmark" href="/img/github.ico"/>
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="HTML,CSS">
-<link rel="canonical" href="redrum1900.github.io/404.html">
+<link rel="canonical" href="redrum1900.github.io/2015/08/13/post5.html">
 <!-- Custom CSS -->
 <link rel="stylesheet" href="/css/main.css">
 <link rel="stylesheet" href="/css/github.css">
@@ -18,8 +18,6 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="/js/jquery.js"></script>
 <script src="/js/function_about.js"></script>
-<!--  -->
-<!-- <meta http-equiv="refresh" content="5; url=/"> -->
 <!--  -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -81,17 +79,40 @@
         <div class="page-content">
             <div class="wrap">
                 <div class="post">
-
     <header class="post-header">
-        <h1>404</h1>
+        <h1><a href="/2015/08/13/post5.html">ionic 安卓平台跨域</a></h1>
+        <p class="meta"><i class="fa fa-calendar"></i> 2015-08-13&nbsp&nbsp&nbsp<i class="fa fa-folder-open"></i> <a href="/categories/#前端">前端</a> &nbsp&nbsp&nbsp<i class="fa fa-tags"></i>&nbsp&nbsp<a href="/tags/#ionic">ionic</a></p>
     </header>
-
     <article class="post-content">
-        <!-- search children -->
-<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8"></script>
+        <p><a href="http://stackoverflow.com/a/31137275">点击查看原文</a></p>
+
+<p>安卓平台发送api请求会出现跨域问题，使用cordova-plugin-whitelist可以轻松解决这个问题</p>
+
+<p>首先安装cordova-plugin-whitelist</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ cordova plugin add cordova-plugin-whitelist
+</code></pre></div>
+<p>然后确认下时候安装成功</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text"> $ cordova plugins
+</code></pre></div>
+<p>出现这个就说明安装成功了</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">cordova-plugin-whitelist 1.0.0 &quot;Whitelist&quot;
+</code></pre></div>
+<p>然后再在index.html页面添加下面标签</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src *;style-src &#39;self&#39; &#39;unsafe-inline&#39;; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;&quot;&gt;
+</code></pre></div>
+<p>最后在$http 中添加 withCredentials</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">.config(function($httpProvider) {
+    $httpProvider.defaults.withCredentials = true;
+});
+</code></pre></div>
+<p>现在就可以重新build一下项目，然后在手机上试一下了。</p>
 
     </article>
-
+    <!-- Duoshuo Comment BEGIN -->
+    <div id="comments">
+        <div class="ds-thread" data-thread-key="/2015/08/13/post5"  data-title="ionic 安卓平台跨域 - Redrum's Blog"></div>
+    </div>
+<!-- Duoshuo Comment END -->
 </div>
 
             </div>

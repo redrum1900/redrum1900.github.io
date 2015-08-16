@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!-- 手机端页面 -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Bower —— 管理你的客户端依赖关系</title>
+<link rel="shortcut icon" href=" /img/github.ico"/>
+<link rel="bookmark" href="/img/github.ico"/>
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="HTML,CSS">
+<link rel="canonical" href="redrum1900.github.io/2015/08/04/post1.html">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/github.css">
+<!-- 返回顶部 -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="/js/jquery.js"></script>
+<script src="/js/function_about.js"></script>
+<!--  -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60393522-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</head>
+
+    <body>
+        <header class="site-header">
+    <div class="wrap">
+        <a class="site-title" href="/"><h1><strong> <font style="color:#39B3D7" >R</font><font style="color:#ED9C28">e</font><font style="color:#47A447">d</font><font style="color:#D9534F">r</font><font style="color:#3276B1">u</font><font style="color:#F78AE0">m</font>
+                </strong>
+        </h1></a>
+        <nav class="site-nav">
+            <a href="#" class="menu-icon">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+                    <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+                    h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+                    h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+                    c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+            </a>
+            <div class="trigger">
+                
+                
+                <a class="page-link" href="/about/">About</a>
+                
+                
+                
+                <a class="page-link" href="/archive/">Archive</a>
+                
+                
+                
+                <a class="page-link" href="/categories/">Categories</a>
+                
+                
+                
+                <a class="page-link" href="/tags/">Tags</a>
+                
+                
+                
+                <a class="page-link" href="/atom.xml">Rss</a>
+                
+                
+            </div>
+        </nav>
+    </div>
+</header>
+
+        <div class="page-content">
+            <div class="wrap">
+                <div class="post">
+    <header class="post-header">
+        <h1><a href="/2015/08/04/post1.html">Bower —— 管理你的客户端依赖关系</a></h1>
+        <p class="meta"><i class="fa fa-calendar"></i> 2015-08-04&nbsp&nbsp&nbsp<i class="fa fa-folder-open"></i> <a href="/categories/#前端">前端</a> &nbsp&nbsp&nbsp<i class="fa fa-tags"></i>&nbsp</p>
+    </header>
+    <article class="post-content">
+        <p><a href="http://segmentfault.com/a/1190000000349555">原文地址</a></p>
+
+<p><strong>什么是Bower？</strong></p>
+
+<p>Bower是一个客户端技术的软件包管理器，它可用于搜索、安装和卸载如JavaScript、HTML、CSS之类的网络资源。其他一些建立在Bower基础之上的开发工具，如YeoMan和Grunt，这个会在以后的文章中介绍。</p>
+
+<p><strong>为什么我会在意Bower？</strong></p>
+
+<p>节省时间。为什么要学习Bower的第一个原因，就是它会为你节省寻找客户端的依赖关系的时间。每次我需要安装jQuery的时候，我都需要去jQuery网站下载包或使用CDN版本。但是有了Bower，你只需要输入一个命令，jquery就会安装在本地计算机上，你不需要去记版本号之类的东西，你也可以通过Bower的info命令去查看任意库的信息。</p>
+
+<p>脱机工作。Bower会在用户主目录下创建一个.bower的文件夹，这个文件夹会下载所有的资源、并安装一个软件包使它们可以离线使用。如果你熟悉Java，Bower即是一个类似于现在流行的Maven构建系统的.m2仓库。每次你下载任何资源库都将被安装在两个文件夹中 —— 一个在的应用程序文件夹，另一个在用户主目录下的.bower文件夹。因此，下一次你需要这个仓库时，就会用那个用户主目录下.bower中的版本。</p>
+
+<p>可以很容易地展现客户端的依赖关系。你可以创建一个名为bower.json的文件，在这个文件里你可以指定所有客户端的依赖关系，任何时候你需要弄清楚你正在使用哪些库，你可以参考这个文件。</p>
+
+<p>让升级变得简单。假设某个库的新版本发布了一个重要的安全修补程序，为了安装新版本，你只需要运行一个命令，bower会自动更新所有有关新版本的依赖关系。</p>
+
+<p><strong>前提准备</strong></p>
+
+<p>为了安装bower，你首先需要安装如下文件：
+* list itemNode：下载最新版本的node.js
+* list itemNPM：NPM是node程序包管理器。它是捆绑在nodejs的安装程序上的，
+* list item所以一旦你已经安装了node，NPM也就安装好了。
+* list itemGit：你需要从git仓库获取一些代码包。</p>
+
+<p><strong>安装Bower</strong></p>
+
+<p>一旦你已经安装了上面所说的所有必要文件，键入以下命令安装Bower：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ npm install -g bower
+</code></pre></div>
+<p>这行命令是Bower的全局安装，-g 操作表示全局。</p>
+
+<p><strong>开始使用Bower</strong></p>
+
+<p>安装完bower之后就可以使用所有的bower命令了。可以键入help 命令来查看bower可以完成那些操作，如下：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ bower help
+Usage:
+
+    bower &lt;command&gt; [&lt;args&gt;] [&lt;options&gt;]
+
+Commands:
+
+    cache                   Manage bower cache
+    help                    Display help information about Bower
+    home                    Opens a package homepage into your favorite browser
+    info                    Info of a particular package
+    init                    Interactively create a bower.json file
+    install                 Install a package locally
+    link                    Symlink a package folder
+    list                    List local packages
+    lookup                  Look up a package URL by name
+    prune                   Removes local extraneous packages
+    register                Register a package
+    search                  Search for a package by name
+    update                  Update a local package
+    uninstall               Remove a local package
+
+Options:
+
+    -f, --force             Makes various commands more forceful
+    -j, --json              Output consumable JSON
+    -l, --log-level         What level of logs to report
+    -o, --offline           Do not hit the network
+    -q, --quiet             Only output important information
+    -s, --silent            Do not output anything, besides errors
+    -V, --verbose           Makes output more verbose
+    --allow-root            Allows running commands as root
+</code></pre></div>
+<p><strong>包的安装</strong></p>
+
+<p>Bower是一个软件包管理器，所以你可以在应用程序中用它来安装新的软件包。举例来看一下来如何使用Bower安装JQuery，在你想要安装该包的地方创建一个新的文件夹，键入如下命令：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ bower install jquery
+</code></pre></div>
+<p>上述命令完成以后，你会在你刚才创建的目录下看到一个bower_components的文件夹，其中目录如下：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ tree bower_components/
+bower_components/
+└── jquery
+    ├── README.md
+    ├── bower.json
+    ├── component.json
+    ├── composer.json
+    ├── jquery-migrate.js
+    ├── jquery-migrate.min.js
+    ├── jquery.js
+    ├── jquery.min.js
+    ├── jquery.min.map
+    └── package.json
+
+1 directory, 10 files
+</code></pre></div>
+<p><strong>包的使用</strong></p>
+
+<p>现在就可以在应用程序中使用jQuery包了，在jQuery里创建一个简单的html5文件：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Learning Bower&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;button&gt;Animate Me!!&lt;/button&gt;
+&lt;div style=&quot;background:red;height:100px;width:100px;position:absolute;&quot;&gt;
+&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;bower_components/jquery/jquery.min.js&quot;&gt;        &lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+    $(document).ready(function(){
+        $(&quot;button&quot;).click(function(){
+            $(&quot;div&quot;).animate({left:&#39;250px&#39;});
+        });
+    });
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre></div>
+<p>正如你所看到的，你刚刚引用jquery.min.js文件，现阶段完成。</p>
+
+<p><strong>所有包的列表</strong></p>
+
+<p>如果你想找出所有安装在应用程序中的包，可以使用list命令：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ bower list
+bower check-new     Checking for new versions of the project dependencies..
+blog /Users/shekhargulati/day1/blog
+└── jquery#2.0.3 extraneous
+</code></pre></div>
+<p><strong>包的搜索</strong></p>
+
+<p>假如你想在你的应用程序中使用twitter的bootstrap框架，但你不确定包的名字，这时你可以使用search 命令：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ bower search bootstrap
+Search results:
+
+    bootstrap git://github.com/twbs/bootstrap.git
+    angular-bootstrap git://github.com/angular-ui/bootstrap-bower.git
+    sass-bootstrap git://github.com/jlong/sass-twitter-bootstrap.git
+</code></pre></div>
+<p><strong>包的信息</strong></p>
+
+<p>如果你想看到关于特定的包的信息，可以使用info 命令来查看该包的所有信息：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ bower info bootstrap
+bower bootstrap#*           not-cached git://github.com/twbs/bootstrap.git#*
+bower bootstrap#*              resolve git://github.com/twbs/bootstrap.git#*
+bower bootstrap#*             download                 https://github.com/twbs/bootstrap/archive/v3.0.0.tar.gz
+bower bootstrap#*              extract archive.tar.gz
+bower bootstrap#*             resolved git://github.com/twbs/bootstrap.git#3.0.0
+
+{
+  name: &#39;bootstrap&#39;,
+  version: &#39;3.0.0&#39;,
+  main: [
+    &#39;./dist/js/bootstrap.js&#39;,
+    &#39;./dist/css/bootstrap.css&#39;
+  ],
+  ignore: [
+    &#39;**/.*&#39;
+  ],
+  dependencies: {
+    jquery: &#39;&gt;= 1.9.0&#39;
+  },
+  homepage: &#39;https://github.com/twbs/bootstrap&#39;
+}
+
+Available versions:
+  - 3.0.0
+  - 3.0.0-rc1
+  - 3.0.0-rc.2
+  - 2.3.2
+ .....
+</code></pre></div>
+<p>如果你想得到单个包的信息，也可以使用info 命令：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ bower info bootstrap#3.0.0
+bower bootstrap#3.0.0           cached     git://github.com/twbs/bootstrap.git#3.0.0
+bower bootstrap#3.0.0         validate 3.0.0 against     git://github.com/twbs/bootstrap.git#3.0.0
+
+{
+  name: &#39;bootstrap&#39;,
+  version: &#39;3.0.0&#39;,
+  main: [
+    &#39;./dist/js/bootstrap.js&#39;,
+    &#39;./dist/css/bootstrap.css&#39;
+  ],
+  ignore: [
+    &#39;**/.*&#39;
+  ],
+  dependencies: {
+    jquery: &#39;&gt;= 1.9.0&#39;
+  },
+  homepage: &#39;https://github.com/twbs/bootstrap&#39;
+}
+</code></pre></div>
+<p><strong>包的卸载</strong></p>
+
+<p>卸载包可以使用uninstall 命令：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ bower uninstall jquery
+</code></pre></div>
+<p><strong>bower.json文件的使用</strong></p>
+
+<p>bower.json文件的使用可以让包的安装更容易，你可以在应用程序的根目录下创建一个名为“bower.json”的文件，并定义它的依赖关系。使用bower init 命令来创建bower.json文件：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ bower init
+[?] name: blog
+[?] version: 0.0.1
+[?] description:
+[?] main file:
+[?] keywords:
+[?] authors: Shekhar Gulati &lt;shekhargulati84@gmail.com&gt;
+[?] license: MIT
+[?] homepage:
+[?] set currently installed components as dependencies? Yes
+[?] add commonly ignored files to ignore list? Yes
+[?] would you like to mark this package as private which prevents it from being     accidentally published to the registry? No
+
+{
+  name: &#39;blog&#39;,
+  version: &#39;0.0.1&#39;,
+  authors: [
+    &#39;Shekhar Gulati &lt;shekhargulati84@gmail.com&gt;&#39;
+  ],
+  license: &#39;MIT&#39;,
+  ignore: [
+    &#39;**/.*&#39;,
+    &#39;node_modules&#39;,
+    &#39;bower_components&#39;,
+    &#39;test&#39;,
+    &#39;tests&#39;
+  ],
+  dependencies: {
+    jquery: &#39;~2.0.3&#39;
+  }
+}
+
+[?] Looks good? Yes
+</code></pre></div>
+<p>可以查看该文件：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">{
+  &quot;name&quot;: &quot;blog&quot;,
+  &quot;version&quot;: &quot;0.0.1&quot;,
+  &quot;authors&quot;: [
+    &quot;Shekhar Gulati &lt;shekhargulati84@gmail.com&gt;&quot;
+  ],
+  &quot;license&quot;: &quot;MIT&quot;,
+  &quot;ignore&quot;: [
+    &quot;**/.*&quot;,
+    &quot;node_modules&quot;,
+    &quot;bower_components&quot;,
+    &quot;test&quot;,
+    &quot;tests&quot;
+  ],
+  &quot;dependencies&quot;: {
+    &quot;jquery&quot;: &quot;~2.0.3&quot;
+     }
+ }
+</code></pre></div>
+<p>注意看，它已经加入了jQuery依赖关系。</p>
+
+<p>现在假设也想用twitter bootstrap，我们可以用下面的命令安装twitter bootstrap并更新bower.json文件：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ bower install bootstrap --save
+</code></pre></div>
+<p>它会自动安装最新版本的bootstrap并更新bower.json文件：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">{
+  &quot;name&quot;: &quot;blog&quot;,
+  &quot;version&quot;: &quot;0.0.1&quot;,
+  &quot;authors&quot;: [
+    &quot;Shekhar Gulati &lt;shekhargulati84@gmail.com&gt;&quot;
+  ],
+  &quot;license&quot;: &quot;MIT&quot;,
+  &quot;ignore&quot;: [
+    &quot;**/.*&quot;,
+    &quot;node_modules&quot;,
+    &quot;bower_components&quot;,
+    &quot;test&quot;,
+    &quot;tests&quot;
+  ],
+  &quot;dependencies&quot;: {
+    &quot;jquery&quot;: &quot;~2.0.3&quot;,
+    &quot;bootstrap&quot;: &quot;~3.0.0&quot;
+  }
+}
+</code></pre></div>
+<p>这就是今天的学习，希望能让你对bower有个足够的了解，最好可以自己尝试一下。</p>
+
+    </article>
+    <!-- Duoshuo Comment BEGIN -->
+    <div id="comments">
+        <div class="ds-thread" data-thread-key="/2015/08/04/post1"  data-title="Bower —— 管理你的客户端依赖关系 - Redrum's Blog"></div>
+    </div>
+<!-- Duoshuo Comment END -->
+</div>
+
+            </div>
+        </div>
+        <footer class="site-footer">
+
+    <div class="wrap">
+        <div class="footer-col-1 column">
+            <div class="github">
+                <!-- <span class="icon github"> -->
+                <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                    <path fill-rule="evenodd" clip-rule="evenodd" fill="#000" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761
+                    c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32
+                    c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472
+                    c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037
+                    C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65
+                    c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261
+                    c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082
+                    c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129
+                    c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+                <!-- </span> -->
+            </div>
+            <a href="https://github.com/redrum1900">
+                Fork me on github
+            </a>
+        </div>
+        <div class="footer-col-2">
+            <p>© 2014 - 2015 by <font style="color:#f44336">❤ </font> <a href="https://github.com/redrum1900">Redrum</a></p>
+        </div>
+        <!-- <div class="footer-col-3 column">
+      <p class="text">HTML,CSS</p>
+    </div> -->
+    </div>
+    <div class="scroll-top"><i class="fa fa-arrow-circle-up"></i></div>
+</footer>
+
+
+        <!-- mathjax -->
+        <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+        </script>
+        <script type="text/javascript"
+                src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <!-- highlight -->
+        <script src="/js/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <!-- pleace change it! -->
+        <script type="text/javascript">
+var duoshuoQuery = {short_name:"redrum"};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+        </script>
+        <!-- top-scrooll -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.js"></script>
+        <script type="text/javascript">
+$(window).scroll(function() {
+    if($(this).scrollTop() > 100) {
+        $('.scroll-top').fadeIn(200);
+    } else {
+        $('.scroll-top').fadeOut(200);
+    }
+});
+$('.scroll-top').bind('click', function(e) {
+    e.preventDefault();
+    $('body,html').animate({scrollTop:0},200);
+});
+        </script>
+    </body>
+</html>
