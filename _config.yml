@@ -1,12 +1,12 @@
 # Site settings
-title: Hackerxu's Blog
-email: 468137306@qq.com
-description: "Python,HTML,CSS,Machine Leaning"
+title: Redrum's Blog
+email: 88333538@163.com
+description: "HTML,CSS"
 permalink: /:year/:month/:day/:title.html
 baseurl: ""
-url: "http://hackerxu.com"
-atom-baseurl: "http://hackerxu.com"
-author: "hackerxu"
+url: "redrum1900.github.io"
+atom-baseurl: "redrum1900.github.io"
+author: "redrum1900"
 
 # Build settings
 # permalink: date
@@ -20,7 +20,7 @@ redcarpet:
   comments :
     provider : duoshuo
     duoshuo :
-      short_name : taizilongxu
+      short_name : seeker
 
 navigations:
   - title: About
