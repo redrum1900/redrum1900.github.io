@@ -2,223 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1568e202-d335-4939-81b0-e66b6ba4e8a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/img/about/node.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/about/node.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-04-post1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-06-post2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-11-post3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-12-post4.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-13-post5.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/2015/08/04/post1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/2015/08/06/post2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/2015/08/11/post3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/2015/08/12/post4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/2015/08/13/post5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/redrum1900.github.io.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/100327002911.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/100327003054.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/100327003214.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/1305388964_JRzA_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/2011082417242348.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/2f801e1db1bc474eabb71037d73dfddf_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/31160727-a7d9a4d0a64a4f4b83a831980273450d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/375102e721925d18e6ac4e994a5ace8f.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/39b9724c51eec0a4380d0ca5e44cb227.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/46cd0009e64bd4665e001304e665e9cd.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/5657919_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/7702.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/7a899e510fb30f2440d33c63c895d143ad4b0300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/900x600_A9FVD2A84T8F0001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/Aaron_Swartz_at_Boston_Wikipedia_Meetup,_2009-08-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/Cpb7Fx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/IMG_20150425_154318.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/TCP_IP.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/ae52f886642e0019fa0973268eeb08b4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/autocorrect_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/autocorrect_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/cd_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/cd_aliases.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/cd_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/chsh.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/dist9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/fail_prompt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/git_aliases.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/git_prompt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_large_files.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_recursive.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_rm_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_rm_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_time_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_time_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/glob_wc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/history_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/history_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/keyboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/kill_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/kill_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/ls_shorthand_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/ls_shorthand_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/movie/lian.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/movie/lian2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/movie/luobin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/movie/luobin2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/mylove/molokai.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/mylove/sublime.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/mylove/ubuntu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_hanshutuxing.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_http协议学习-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_huan.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_liucheng.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_lun.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_shuan.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_slun.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_weizhi.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_yanshi1.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_yanshi2.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_yanshi3.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_yanshi4.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/o_yanshi5.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/path_expansion_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/path_expansion_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/rake_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/rake_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/rango.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/source/github-128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/source/github-32-beta.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/source/github-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/source/github-48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/switch_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/switch_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/tab_names.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/tcp-ip-handshark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/types_map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/u=220219588,1869709485&amp;fm=23&amp;gp=0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/vim_mode_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/vim_mode_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/屏幕快照 2015-02-22 上午9.50.16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/100327002911.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/100327003054.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/100327003214.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1305388964_JRzA_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2011082417242348.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2f801e1db1bc474eabb71037d73dfddf_b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/31160727-a7d9a4d0a64a4f4b83a831980273450d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/375102e721925d18e6ac4e994a5ace8f.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/39b9724c51eec0a4380d0ca5e44cb227.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/46cd0009e64bd4665e001304e665e9cd.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/5657919_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/7702.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/7a899e510fb30f2440d33c63c895d143ad4b0300.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/900x600_A9FVD2A84T8F0001.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Aaron_Swartz_at_Boston_Wikipedia_Meetup,_2009-08-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Cpb7Fx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/IMG_20150425_154318.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/TCP_IP.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ae52f886642e0019fa0973268eeb08b4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/autocorrect_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/autocorrect_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cd_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cd_aliases.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/cd_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/chsh.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dist9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fail_prompt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/git_aliases.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/git_prompt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_large_files.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_recursive.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_rm_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_rm_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_time_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_time_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/glob_wc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/history_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/history_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/keyboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/kill_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/kill_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ls_shorthand_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ls_shorthand_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/movie/lian.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/movie/lian2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/movie/luobin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/movie/luobin2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mylove/molokai.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mylove/sublime.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mylove/ubuntu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_hanshutuxing.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_http协议学习-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_huan.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_liucheng.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_lun.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_shuan.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_slun.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_weizhi.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_yanshi1.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_yanshi2.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_yanshi3.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_yanshi4.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/o_yanshi5.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/path_expansion_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/path_expansion_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rake_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rake_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rango.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/source/github-128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/source/github-32-beta.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/source/github-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/source/github-48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/switch_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/switch_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tab_names.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/tcp-ip-handshark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/types_map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/u=220219588,1869709485&amp;fm=23&amp;gp=0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vim_mode_after.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vim_mode_before.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/屏幕快照 2015-02-22 上午9.50.16.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twd/index.html" afterPath="$PROJECT_DIR$/Twd/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/Twd/index.html" afterPath="$PROJECT_DIR$/_site/Twd/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/archive/index.html" afterPath="$PROJECT_DIR$/_site/archive/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/categories/index.html" afterPath="$PROJECT_DIR$/_site/categories/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
     </list>
     <ignored path="redrum1900.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -272,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.666667" vertical-offset="353" max-vertical-offset="1500">
-              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.5095368" vertical-offset="908" max-vertical-offset="1500">
+              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -284,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47493404" vertical-offset="0" max-vertical-offset="379">
+            <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="285">
               <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding />
             </state>
@@ -369,8 +153,8 @@
         <option value="$PROJECT_DIR$/_posts/2015-08-06-post2.md" />
         <option value="$PROJECT_DIR$/_posts/2015-08-11-post3.md" />
         <option value="$PROJECT_DIR$/_posts/2015-08-13-post5.md" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/about.html" />
       </list>
     </option>
   </component>
@@ -665,7 +449,7 @@
         <state vertical-scroll-proportion="-40.625" vertical-offset="1380" max-vertical-offset="3195">
           <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
           <folding>
-            <marker date="1439732939000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439733121000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -758,21 +542,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.666667" vertical-offset="353" max-vertical-offset="1500">
-          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="285">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47493404" vertical-offset="0" max-vertical-offset="379">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
+        <state vertical-scroll-proportion="0.5095368" vertical-offset="908" max-vertical-offset="1500">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
