@@ -2,96 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1568e202-d335-4939-81b0-e66b6ba4e8a9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/css/bootstrap-3.0.3.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/css/bootstrap-custom.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/css/docs.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/css/font-awesome-4.0.3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/css/prettify-1.0.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/bing-explore.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/ch1-rango-cat-page.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/ch1-rango-index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/ch11-bootstrap-about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/ch11-bootstrap-index-rows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/ch5-rango-admin-custom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/ch5-rango-admin-models.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/ch5-rango-admin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/cookie-visits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/django-dev-server-firstrun.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-categories-simple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-erd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-erd1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-form-steps.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-hello-world-template.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-hello-world.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-links.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-login-message.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-ntier-architecture.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-picture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-register-form.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-site-with-pic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/rango-template-inheritance.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/session-id.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/test-cookie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/img/url-chain.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/js/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/js/bootstrap-3.0.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twd/js/prettify-1.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/css/bootstrap-3.0.3.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/css/bootstrap-custom.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/css/docs.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/css/font-awesome-4.0.3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/css/prettify-1.0.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/bing-explore.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/ch1-rango-cat-page.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/ch1-rango-index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/ch11-bootstrap-about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/ch11-bootstrap-index-rows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/ch5-rango-admin-custom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/ch5-rango-admin-models.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/ch5-rango-admin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/cookie-visits.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/django-dev-server-firstrun.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-categories-simple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-erd.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-erd1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-form-steps.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-hello-world-template.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-hello-world.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-links.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-login-message.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-ntier-architecture.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-picture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-register-form.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-site-with-pic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/rango-template-inheritance.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/session-id.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/test-cookie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/img/url-chain.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/js/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/js/bootstrap-3.0.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/Twd/js/prettify-1.0.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="redrum1900.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="countdown.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/countdown/countdown.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="3000">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="countdown.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/countdown/countdown.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,11 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47368422" vertical-offset="0" max-vertical-offset="380">
+            <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="270">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.078947365" vertical-offset="0" max-vertical-offset="380">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -243,7 +154,6 @@
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/_posts/2015-08-13-life.md" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/task/sync.js" />
         <option value="$PROJECT_DIR$/task/build.json" />
@@ -251,6 +161,7 @@
         <option value="$PROJECT_DIR$/_posts/2015-08-12-post4.md" />
         <option value="$PROJECT_DIR$/_posts/2015-08-17-post6.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -300,20 +211,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="redrum1900.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redrum1900.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redrum1900.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -568,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="407">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4680">
@@ -793,8 +683,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47368422" vertical-offset="0" max-vertical-offset="380">
+        <state vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="270">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.078947365" vertical-offset="0" max-vertical-offset="380">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding />
         </state>
       </provider>
