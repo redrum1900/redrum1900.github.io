@@ -1,0 +1,6 @@
+{
+  "src":          "img",
+  "dest":         "qiniu:access_key=CSrhAokq5LqEWd72d8zRLyDMWZOiUqkZTLXpUeOx&secret_key=oiTZR61KYSer3Qq1fnQSkJ-uVRtqdjwP_oKgfrXt&bucket=redrum1900&key_prefix=img/",
+  "deletable":    0,
+  "debug_level":  1
+}

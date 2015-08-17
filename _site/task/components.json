@@ -1,0 +1,6 @@
+{
+  "src":          "public/components",
+  "dest":         "qiniu:access_key=m1AuPMi4lDrxwv9cUraTyZQtOlaUYm4QGmYOeRE2&secret_key=n_7lGcZB8oCRik00C4D4MkigsSY_f5Dj5sLOFVeq&bucket=rsct&key_prefix=components/",
+  "deletable":    0,
+  "debug_level":  1
+}
