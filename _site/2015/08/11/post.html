@@ -37,6 +37,7 @@
         <a class="site-title" href="/"><h1><strong> <font style="color:#39B3D7" >R</font><font style="color:#ED9C28">e</font><font style="color:#47A447">d</font><font style="color:#D9534F">r</font><font style="color:#3276B1">u</font><font style="color:#F78AE0">m</font>
                 </strong>
         </h1></a>
+        <audio id="player" src="" autoplay="autoplay" loop="loop"></audio>
         <nav class="site-nav">
             <a href="#" class="menu-icon">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -74,6 +75,15 @@
             </div>
         </nav>
     </div>
+    <script type="text/javascript">
+        $(function(){
+            if($('#player').attr('src') === '')
+            {
+                $('#player').attr('src','http://7pn6ab.com1.z0.glb.clouddn.com/music/北方女王.mp3')
+            }
+        })
+
+    </script>
 </header>
 
         <div class="page-content">
@@ -97,6 +107,8 @@
         <div class="ds-thread" data-thread-key="/2015/08/11/post"  data-title="beyond compare mac 破解版 一款强大的文件对比软件 - Redrum's Blog"></div>
     </div>
 <!-- Duoshuo Comment END -->
+
+
 </div>
 
             </div>

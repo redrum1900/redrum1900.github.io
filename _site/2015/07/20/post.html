@@ -37,6 +37,7 @@
         <a class="site-title" href="/"><h1><strong> <font style="color:#39B3D7" >R</font><font style="color:#ED9C28">e</font><font style="color:#47A447">d</font><font style="color:#D9534F">r</font><font style="color:#3276B1">u</font><font style="color:#F78AE0">m</font>
                 </strong>
         </h1></a>
+        <audio id="player" src="" autoplay="autoplay" loop="loop"></audio>
         <nav class="site-nav">
             <a href="#" class="menu-icon">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -74,6 +75,15 @@
             </div>
         </nav>
     </div>
+    <script type="text/javascript">
+        $(function(){
+            if($('#player').attr('src') === '')
+            {
+                $('#player').attr('src','http://7pn6ab.com1.z0.glb.clouddn.com/music/北方女王.mp3')
+            }
+        })
+
+    </script>
 </header>
 
         <div class="page-content">
@@ -84,7 +94,9 @@
         <p class="meta"><i class="fa fa-calendar"></i> 2015-07-20&nbsp&nbsp&nbsp<i class="fa fa-folder-open"></i> <a href="/categories/#前端">前端</a> &nbsp&nbsp&nbsp<i class="fa fa-tags"></i>&nbsp&nbsp<a href="/tags/#jquery插件">jquery插件</a>&nbsp<a href="/tags/#特效">特效</a></p>
     </header>
     <article class="post-content">
-        <p>前段时间在看国外网站的时候发现一个标题处的一个特效，感觉挺炫的，于是我就趴了下来，或许以后可能用到，话说多了，还是直接看特效吧，duang！</p>
+        <audio src="http://7pn6ab.com1.z0.glb.clouddn.com/music/恋爱循环.mp3" autoplay="autoplay" loop="loop"></audio>
+
+<p>前段时间在看国外网站的时候发现一个标题处的一个特效，感觉挺炫的，于是我就趴了下来，或许以后可能用到，话说多了，还是直接看特效吧，duang！</p>
 
 <p><a href="http://redrum1900.github.io/examples/webglwave/">点击查看demo</a></p>
 
@@ -96,6 +108,8 @@
         <div class="ds-thread" data-thread-key="/2015/07/20/post"  data-title="3D球形特效 - Redrum's Blog"></div>
     </div>
 <!-- Duoshuo Comment END -->
+
+
 </div>
 
             </div>
