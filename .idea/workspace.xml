@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1568e202-d335-4939-81b0-e66b6ba4e8a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-07-20-post.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/examples/webglwave/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/webglwave/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/task/replace.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task/replace.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/task/replace.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task/replace.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/task/replace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task/replace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/examples/webglwave/webgl_wave.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/webglwave/webgl_wave.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/2015/08/04/post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/js/chartkick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/chartkick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/function_about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/highlight.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.tagcloud.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-08-04-post.md" afterPath="$PROJECT_DIR$/_posts/2015-07-04-post.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-08-17-post.md" afterPath="$PROJECT_DIR$/_posts/2015-06-22-post.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_site/examples/countdown/countdown.html" afterPath="$PROJECT_DIR$/_site/examples/countdown/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/countdown/countdown.html" afterPath="$PROJECT_DIR$/examples/countdown/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/task/components.json" afterPath="$PROJECT_DIR$/_site/task/components.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/components.json" afterPath="$PROJECT_DIR$/task/components.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/archive/index.html" afterPath="$PROJECT_DIR$/_site/archive/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/categories/index.html" afterPath="$PROJECT_DIR$/_site/categories/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/01/life.html" afterPath="$PROJECT_DIR$/_site/2015/08/01/life.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/06/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/06/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/11/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/11/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/12/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/12/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/13/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/13/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/17/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/17/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/18/sui.html" afterPath="$PROJECT_DIR$/_site/2015/08/18/sui.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/task/sync.js" afterPath="$PROJECT_DIR$/_site/task/sync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/sync.js" afterPath="$PROJECT_DIR$/task/sync.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags.html" afterPath="$PROJECT_DIR$/tags.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-20-post.md" afterPath="$PROJECT_DIR$/_posts/2015-07-20-post.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-12-post.md" afterPath="$PROJECT_DIR$/_posts/2015-08-12-post.md" />
     </list>
     <ignored path="redrum1900.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="replace.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task/replace.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/webglwave/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,20 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/countdown/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2015-07-04-post.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-07-04-post.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.16" vertical-offset="1326" max-vertical-offset="4410">
+            <state vertical-scroll-proportion="-36.96" vertical-offset="606" max-vertical-offset="4410">
               <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
               <folding />
             </state>
@@ -142,11 +77,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-06-22-post.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2015-08-18-sui.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-08-18-sui.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-06-22-post.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-06-22-post.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27631578" vertical-offset="0" max-vertical-offset="660">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="660">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-08-01-life.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-08-01-life.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -155,18 +110,18 @@
       <file leaf-file-name="2015-07-20-post.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-07-20-post.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6" vertical-offset="0" max-vertical-offset="255">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="255">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-08-12-post.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2015-08-12-post.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-08-12-post.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1020">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.12261581" vertical-offset="0" max-vertical-offset="1020">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -222,6 +177,8 @@
         <option value="$PROJECT_DIR$/_posts/2015-08-18-post.md" />
         <option value="$PROJECT_DIR$/examples/webglwave/index.html" />
         <option value="$PROJECT_DIR$/_posts/2015-07-20-post.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-08-12-post.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-06-22-post.md" />
       </list>
     </option>
   </component>
@@ -675,14 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-08-18-sui.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task/build.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
@@ -755,14 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="617">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-08-01-life.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -855,9 +796,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/webglwave/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="765">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-08-06-post.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2475">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-08-11-post.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -871,41 +828,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/webglwave/index.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2015-08-18-sui.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="765">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-07-20-post.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2015-08-01-life.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6" vertical-offset="0" max-vertical-offset="255">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-08-11-post.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-08-12-post.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-07-04-post.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.16" vertical-offset="1326" max-vertical-offset="4410">
+        <state vertical-scroll-proportion="-36.96" vertical-offset="606" max-vertical-offset="4410">
           <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
           <folding />
         </state>
@@ -913,8 +854,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-06-22-post.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27631578" vertical-offset="0" max-vertical-offset="660">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="660">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-07-20-post.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="255">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-08-12-post.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12261581" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
         </state>
       </provider>
