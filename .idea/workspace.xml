@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1568e202-d335-4939-81b0-e66b6ba4e8a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-22-post.md" afterPath="$PROJECT_DIR$/_posts/2015-06-22-post.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-06-30-post.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/countdown/index.html" afterPath="$PROJECT_DIR$/examples/countdown/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/06/22/post.html" afterPath="$PROJECT_DIR$/_site/2015/06/22/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/archive/index.html" afterPath="$PROJECT_DIR$/_site/archive/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/categories/index.html" afterPath="$PROJECT_DIR$/_site/categories/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redrum1900.github.io.iws" />
@@ -33,18 +34,8 @@
       <file leaf-file-name="2015-07-04-post.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-07-04-post.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-36.96" vertical-offset="606" max-vertical-offset="4410">
-              <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-08-13-post.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-08-13-post.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4410">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -70,6 +61,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="2015-06-30-post.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-06-30-post.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.6052632" vertical-offset="0" max-vertical-offset="1080">
+              <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/countdown/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39473686" vertical-offset="0" max-vertical-offset="380">
+            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="240">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -182,6 +183,7 @@
         <option value="$PROJECT_DIR$/_posts/2015-08-12-post.md" />
         <option value="$PROJECT_DIR$/_posts/2015-06-22-post.md" />
         <option value="$PROJECT_DIR$/examples/countdown/index.html" />
+        <option value="$PROJECT_DIR$/_posts/2015-06-30-post.md" />
       </list>
     </option>
   </component>
@@ -481,13 +483,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.2083335" vertical-offset="2375" max-vertical-offset="2715">
-          <caret line="150" column="4" selection-start-line="150" selection-start-column="4" selection-end-line="150" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/categories/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-40.625" vertical-offset="1380" max-vertical-offset="3195">
@@ -839,26 +834,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-07-04-post.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.96" vertical-offset="606" max-vertical-offset="4410">
-          <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/webglwave/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.125" vertical-offset="384" max-vertical-offset="765">
           <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-06-22-post.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -873,8 +852,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39473686" vertical-offset="0" max-vertical-offset="380">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="240">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-07-04-post.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4410">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-06-22-post.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0" vertical-offset="0" max-vertical-offset="675">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-06-30-post.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.6052632" vertical-offset="0" max-vertical-offset="1080">
+          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
           <folding />
         </state>
       </provider>
