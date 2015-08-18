@@ -7,6 +7,18 @@
         <atom:link href="redrum1900.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>去医院</title>
+                        
+                
+                    <description>&lt;p&gt;上次去医院接收治疗可能已经是好久好久以前的事了，这次真的很意外，洗澡的时候被玻璃刮伤，然后去医院缝了针，打了针，现在想起来好好笑。&lt;/p&gt;
+</description>
+                
+                <pubDate>Tue, 18 Aug 2015 00:00:00 +0800</pubDate>
+                <link>redrum1900.github.io/2015/08/18/sui.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/08/18/sui.html</guid>
+            </item>
+        
+            <item>
                 <title>一个简单地倒计时插件</title>
                         
                 
@@ -14,8 +26,8 @@
 </description>
                 
                 <pubDate>Mon, 17 Aug 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/08/17/post6.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/08/17/post6.html</guid>
+                <link>redrum1900.github.io/2015/08/17/post.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/08/17/post.html</guid>
             </item>
         
             <item>
@@ -26,8 +38,8 @@
 </description>
                 
                 <pubDate>Thu, 13 Aug 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/08/13/post5.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/08/13/post5.html</guid>
+                <link>redrum1900.github.io/2015/08/13/post.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/08/13/post.html</guid>
             </item>
         
             <item>
@@ -38,8 +50,8 @@
 </description>
                 
                 <pubDate>Wed, 12 Aug 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/08/12/post4.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/08/12/post4.html</guid>
+                <link>redrum1900.github.io/2015/08/12/post.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/08/12/post.html</guid>
             </item>
         
             <item>
@@ -50,8 +62,8 @@
 </description>
                 
                 <pubDate>Tue, 11 Aug 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/08/11/post3.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/08/11/post3.html</guid>
+                <link>redrum1900.github.io/2015/08/11/post.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/08/11/post.html</guid>
             </item>
         
             <item>
@@ -62,8 +74,8 @@
 </description>
                 
                 <pubDate>Thu, 06 Aug 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/08/06/post2.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/08/06/post2.html</guid>
+                <link>redrum1900.github.io/2015/08/06/post.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/08/06/post.html</guid>
             </item>
         
             <item>
@@ -74,8 +86,8 @@
 </description>
                 
                 <pubDate>Tue, 04 Aug 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/08/04/post1.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/08/04/post1.html</guid>
+                <link>redrum1900.github.io/2015/08/04/post.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/08/04/post.html</guid>
             </item>
         
             <item>
@@ -86,8 +98,8 @@
 </description>
                 
                 <pubDate>Sat, 01 Aug 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/08/01/life0.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/08/01/life0.html</guid>
+                <link>redrum1900.github.io/2015/08/01/life.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/08/01/life.html</guid>
             </item>
         
     </channel>
