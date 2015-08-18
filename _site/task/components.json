@@ -1,6 +1,6 @@
 {
-  "src":          "public/components",
-  "dest":         "qiniu:access_key=m1AuPMi4lDrxwv9cUraTyZQtOlaUYm4QGmYOeRE2&secret_key=n_7lGcZB8oCRik00C4D4MkigsSY_f5Dj5sLOFVeq&bucket=rsct&key_prefix=components/",
+  "src":          "js",
+  "dest":         "qiniu:access_key=CSrhAokq5LqEWd72d8zRLyDMWZOiUqkZTLXpUeOx&secret_key=oiTZR61KYSer3Qq1fnQSkJ-uVRtqdjwP_oKgfrXt&bucket=redrum1900&key_prefix=js/",
   "deletable":    0,
   "debug_level":  1
 }

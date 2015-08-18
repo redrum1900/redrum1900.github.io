@@ -19,18 +19,6 @@
             </item>
         
             <item>
-                <title>一个简单地倒计时插件</title>
-                        
-                
-                    <description>&lt;h2&gt;一个简单地倒计时插件&lt;/h2&gt;
-</description>
-                
-                <pubDate>Mon, 17 Aug 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/08/17/post.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/08/17/post.html</guid>
-            </item>
-        
-            <item>
                 <title>ionic 安卓平台跨域</title>
                         
                 
@@ -79,18 +67,6 @@
             </item>
         
             <item>
-                <title>Bower —— 管理你的客户端依赖关系</title>
-                        
-                
-                    <description>&lt;p&gt;&lt;a href=&quot;http://segmentfault.com/a/1190000000349555&quot;&gt;原文地址&lt;/a&gt;&lt;/p&gt;
-</description>
-                
-                <pubDate>Tue, 04 Aug 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/08/04/post.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/08/04/post.html</guid>
-            </item>
-        
-            <item>
                 <title>我想去</title>
                         
                 
@@ -100,6 +76,42 @@
                 <pubDate>Sat, 01 Aug 2015 00:00:00 +0800</pubDate>
                 <link>redrum1900.github.io/2015/08/01/life.html</link>
                 <guid isPermaLink="true">redrum1900.github.io/2015/08/01/life.html</guid>
+            </item>
+        
+            <item>
+                <title>3D球形特效</title>
+                        
+                
+                    <description>&lt;p&gt;前段时间在看国外网站的时候发现一个标题处的一个特效，感觉挺炫的，于是我就趴了下来，或许以后可能用到，话说多了，还是直接看特效吧，duang！&lt;/p&gt;
+</description>
+                
+                <pubDate>Mon, 20 Jul 2015 00:00:00 +0800</pubDate>
+                <link>redrum1900.github.io/2015/07/20/post.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/07/20/post.html</guid>
+            </item>
+        
+            <item>
+                <title>Bower —— 管理你的客户端依赖关系</title>
+                        
+                
+                    <description>&lt;p&gt;&lt;a href=&quot;http://segmentfault.com/a/1190000000349555&quot;&gt;原文地址&lt;/a&gt;&lt;/p&gt;
+</description>
+                
+                <pubDate>Sat, 04 Jul 2015 00:00:00 +0800</pubDate>
+                <link>redrum1900.github.io/2015/07/04/post.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/07/04/post.html</guid>
+            </item>
+        
+            <item>
+                <title>一个简单地倒计时插件</title>
+                        
+                
+                    <description>&lt;h2&gt;一个简单地倒计时插件&lt;/h2&gt;
+</description>
+                
+                <pubDate>Mon, 22 Jun 2015 00:00:00 +0800</pubDate>
+                <link>redrum1900.github.io/2015/06/22/post.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/06/22/post.html</guid>
             </item>
         
     </channel>

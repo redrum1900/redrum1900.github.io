@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "replace.js",
+  "sourceRoot": "",
+  "sources": [
+    "replace.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA;;EAAA,IAAA,GAAO,OAAA,CAAQ,MAAR;;EACP,EAAA,GAAK,OAAA,CAAQ,IAAR;;EAGL,KAAA,GAAQ;;EACR,IAAA,GAAO;;EAEP,IAAI,CAAC,IAAL,CAAU,SAAV,EAAqB,SAAA,GAAA,CAArB;AAPA"
+}

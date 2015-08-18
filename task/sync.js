@@ -7,8 +7,10 @@
   exec = require('child_process').exec;
 
   gulp.task('sync', function() {
+    exec('task/qrsync  task/components.json', function(err, stdout, stdinfo) {
+      return console.log(stdinfo);
+    });
     return exec('task/qrsync task/build.json', function(err, stdout, stdinfo) {
-      console.log(stdout);
       return console.log(stdinfo);
     });
   });
