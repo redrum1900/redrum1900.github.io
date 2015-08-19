@@ -38,11 +38,16 @@
                 $(player).attr('src','http://7pn6ab.com1.z0.glb.clouddn.com/music/北方女王.mp3')
             };
             $('#m').on('click',function(){
-//                $('#player').attr('muted','true');
                 if(player.muted)
-                player.muted = false;
+                {
+                    player.muted = false;
+                    $('#m').addClass('zhuan');
+                }
                 else
+                {
                     player.muted = true;
+                    $('#m').removeClass('zhuan');
+                }
             })
         })
 

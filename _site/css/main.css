@@ -49,29 +49,29 @@ a:visited { color: #7C7C7C; }
     top: 13px;
     height: 30px;
     width: 30px;
-    -webkit-animation :changes 2s linear infinite;
-    -moz-animation :changes 2s linear infinite;
-    animation :changes 2s linear infinite;
+
 }
 .zhuan {
-
+    -webkit-animation :rotate 5s linear infinite;
+    -moz-animation :rotate 5s linear infinite;
+    animation :rotate 5s linear infinite;
 }
 
-@-webkit-keyframes changes
+@-webkit-keyframes rotate
 {
-　　from {-webkit-transform:rotate(0deg)}
-　　to{-webkit-transform:rotate(360deg)}
+　　 0%   {-webkit-transform:rotate(0deg)}
+    100% {-webkit-transform:rotate(360deg)}
 }
 
-@-moz-keyframes changes
+@-moz-keyframes rotate
 {
-　　from {-moz-transform:rotate(0deg)}
-　　to {-moz-transform:rotate(360deg)}
+　　 0%   {-moz-transform:rotate(0deg)}
+    100% {-moz-transform:rotate(360deg)}
 }
-@keyframes changes
+@keyframes rotate
 {
-　　from {transform:rotate(0deg)}
-　　to {transform:rotate(360deg)}
+　　 0%   {transform:rotate(0deg)}
+    100% {transform:rotate(360deg)}
 }
 .site-header {
     position: fixed;
