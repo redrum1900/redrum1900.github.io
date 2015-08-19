@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1568e202-d335-4939-81b0-e66b6ba4e8a9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/archive/index.html" afterPath="$PROJECT_DIR$/_site/archive/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/categories/index.html" afterPath="$PROJECT_DIR$/_site/categories/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/01/life.html" afterPath="$PROJECT_DIR$/_site/2015/08/01/life.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/06/22/post.html" afterPath="$PROJECT_DIR$/_site/2015/06/22/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/06/30/post.html" afterPath="$PROJECT_DIR$/_site/2015/06/30/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/07/04/post.html" afterPath="$PROJECT_DIR$/_site/2015/07/04/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/07/20/post.html" afterPath="$PROJECT_DIR$/_site/2015/07/20/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/06/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/06/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/11/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/11/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/12/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/12/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/13/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/13/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/18/sui.html" afterPath="$PROJECT_DIR$/_site/2015/08/18/sui.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redrum1900.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,21 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.108499095" vertical-offset="0" max-vertical-offset="840">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state vertical-scroll-proportion="-0.5882353" vertical-offset="0" max-vertical-offset="840">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="705">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.07293355" vertical-offset="45" max-vertical-offset="705">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -201,8 +183,8 @@
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -775,18 +757,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="705">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="7" />
+        <state vertical-scroll-proportion="-0.5882353" vertical-offset="0" max-vertical-offset="840">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.108499095" vertical-offset="0" max-vertical-offset="840">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.07293355" vertical-offset="45" max-vertical-offset="705">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding />
         </state>
       </provider>
