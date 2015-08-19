@@ -3,7 +3,7 @@ title: Redrum's Blog
 email: 88333538@163.com
 description: "HTML,CSS"
 permalink: /:year/:month/:day/:title.html
-baseurl: ""
+baseurl: "http://7pn6ab.com1.z0.glb.clouddn.com"
 url: "redrum1900.github.io"
 atom-baseurl: "redrum1900.github.io"
 author: "redrum1900"

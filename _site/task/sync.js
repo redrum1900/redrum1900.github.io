@@ -10,6 +10,12 @@
     exec('task/qrsync  task/components.json', function(err, stdout, stdinfo) {
       return console.log(stdinfo);
     });
+    exec('task/qrsync  task/css.json', function(err, stdout, stdinfo) {
+      return console.log(stdinfo);
+    });
+    exec('task/qrsync  task/music.json', function(err, stdout, stdinfo) {
+      return console.log(stdinfo);
+    });
     return exec('task/qrsync task/build.json', function(err, stdout, stdinfo) {
       return console.log(stdinfo);
     });
