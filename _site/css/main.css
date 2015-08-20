@@ -51,6 +51,10 @@ a:visited { color: #7C7C7C; }
     width: 30px;
 
 }
+.playico:hover{
+    cursor:hand;
+    cursor:pointer;
+}
 .zhuan {
     -webkit-animation :rotate 5s linear infinite;
     -moz-animation :rotate 5s linear infinite;

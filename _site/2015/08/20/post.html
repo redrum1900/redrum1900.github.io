@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Redrum's Blog</title>
+<title>css实现360°旋转的</title>
 <link rel="shortcut icon" href="/img/github.ico"/>
 <link rel="bookmark" href="/img/github.ico"/>
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="HTML,CSS">
-<link rel="canonical" href="redrum1900.github.io/">
+<link rel="canonical" href="redrum1900.github.io/2015/08/20/post.html">
 <!-- Custom CSS -->
 <link rel="stylesheet" href="/css/main.css">
 <link rel="stylesheet" href="/css/github.css">
@@ -106,75 +106,70 @@
 
         <div class="page-content">
             <div class="wrap">
-                <div class="home">
-  
-  <header class="post-header">
-    <h1><a href="/2015/08/01/life.html">我想去</a></h1>
-    <p class="meta"><i class="fa fa-calendar"></i> 2015-08-01&nbsp&nbsp&nbsp<i class="fa fa-folder-open"></i> <a href="/categories/#life">life</a> &nbsp&nbsp&nbsp<i class="fa fa-tags"></i>&nbsp</p>
-  </header>
-  <article class="post-content">
-  <p><img src="http://www.ctps.cn/PhotoNet/Profiles2011/20120802/2012822136564556.jpg" alt="w"></p>
+                <div class="post">
+    <header class="post-header">
+        <h1><a href="/2015/08/20/post.html">css实现360°旋转的</a></h1>
+        <p class="meta"><i class="fa fa-calendar"></i> 2015-08-20&nbsp&nbsp&nbsp<i class="fa fa-folder-open"></i> <a href="/categories/#前端">前端</a> &nbsp&nbsp&nbsp<i class="fa fa-tags"></i>&nbsp&nbsp<a href="/tags/#特效">特效</a></p>
+    </header>
+    <article class="post-content">
+        <p>css实现图标无限旋转的例子，具体效果请见网页右上角转动的音符，那是一个隐藏的按钮</p>
 
-  </article>
-  
-  <ul class="posts">
-    <!-- <li class="listing-seperator">Yesterday you said tomorrow</li> -->
-  
-  
-    
-    
-    <li class="listing-item">
-      <time datetime="2015-08-20">2015-08-20</time>
-      <a href="/2015/08/20/post.html" title="css实现360°旋转的">css实现360°旋转的</a>
-    </li>
-  
-    
-    
-    <li class="listing-item">
-      <time datetime="2015-08-18">2015-08-18</time>
-      <a href="/2015/08/18/sui.html" title="去医院">去医院</a>
-    </li>
-  
-    
-    
-    <li class="listing-item">
-      <time datetime="2015-08-13">2015-08-13</time>
-      <a href="/2015/08/13/post.html" title="ionic 安卓平台跨域">ionic 安卓平台跨域</a>
-    </li>
-  
-    
-    
-    <li class="listing-item">
-      <time datetime="2015-08-12">2015-08-12</time>
-      <a href="/2015/08/12/post.html" title="jquery方向悬停效果">jquery方向悬停效果</a>
-    </li>
-  
-    
-    
-    <li class="listing-item">
-      <time datetime="2015-08-11">2015-08-11</time>
-      <a href="/2015/08/11/post.html" title="beyond compare mac 破解版 一款强大的文件对比软件">beyond compare mac 破解版 一款强大的文件对比软件</a>
-    </li>
-  
-    
-    
-    <li class="listing-item">
-      <time datetime="2015-08-06">2015-08-06</time>
-      <a href="/2015/08/06/post.html" title="InAppBrowser使用心得">InAppBrowser使用心得</a>
-    </li>
-  
-    
-    
-    <li class="listing-item">
-      <time datetime="2015-08-01">2015-08-01</time>
-      <a href="/2015/08/01/life.html" title="我想去">我想去</a>
-    </li>
-  
-    
-    
-    
-    <li class="listing-seperator"><a href="/archive/">Long ago</a></li>
-  </ul>
+<h4>代码如下</h4>
+
+<p>Html部分：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;div id=&quot;m&quot; class=&quot;zhuan&quot;&gt;&lt;/div&gt;
+</code></pre></div>
+<p>CSS部分：</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">.zhuan {
+    -webkit-animation :rotate 5s linear infinite;
+    -moz-animation :rotate 5s linear infinite;
+    animation :rotate 5s linear infinite;
+
+@-webkit-keyframes rotate
+{
+　　 0%   {-webkit-transform:rotate(0deg)}
+    100% {-webkit-transform:rotate(360deg)}
+}
+
+@-moz-keyframes rotate
+{
+　　 0%   {-moz-transform:rotate(0deg)}
+    100% {-moz-transform:rotate(360deg)}
+}
+@keyframes rotate
+{
+　　 0%   {transform:rotate(0deg)}
+    100% {transform:rotate(360deg)}
+}
+</code></pre></div>
+<h4>详解</h4>
+
+<p>animation是一个设置动画的属性，配合Keyframes来实现动画，Keyframes则是展示动画效果，语法如下</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">animation: name duration timing-function delay iteration-count direction;
+</code></pre></div>
+<p>参数介绍</p>
+
+<ul>
+<li><p>name      规定需要绑定到选择器的 keyframe 名称。</p></li>
+<li><p>duration  规定完成动画所花费的时间，以秒或毫秒计。</p></li>
+<li><p>timing-function   规定动画的速度曲线。</p></li>
+<li><p>delay 规定在动画开始之前的延迟。</p></li>
+<li><p>iteration-count   规定动画应该播放的次数。</p></li>
+<li><p>direction 规定是否应该轮流反向播放动画。</p></li>
+</ul>
+
+<p>那么该帖子提供的例子就是  执行rotate  5秒钟完成  线性时间  无限次数</p>
+
+<p>好吧，大概就是这样子，可以试一试。</p>
+
+    </article>
+    <!-- Duoshuo Comment BEGIN -->
+    <div id="comments">
+        <div class="ds-thread" data-thread-key="/2015/08/20/post"  data-title="css实现360°旋转的 - Redrum's Blog"></div>
+    </div>
+<!-- Duoshuo Comment END -->
+
+
 </div>
 
             </div>

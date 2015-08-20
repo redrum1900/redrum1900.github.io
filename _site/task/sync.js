@@ -4,9 +4,15 @@
 
   gulp = require('gulp');
 
+  del = require('del')
+
   exec = require('child_process').exec;
 
+
   gulp.task('sync', function() {
+    del.sync('/js')
+    del.sync('/css')
+    del.sync('/img')
     exec('task/qrsync  task/components.json', function(err, stdout, stdinfo) {
       return console.log(stdinfo);
     });
