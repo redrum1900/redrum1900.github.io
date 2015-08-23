@@ -3,7 +3,8 @@ title: Redrum's Blog
 email: 88333538@163.com
 description: "HTML,CSS"
 permalink: /:year/:month/:day/:title.html
-baseurl: "http://7pn6ab.com1.z0.glb.clouddn.com"
+baseurl: ""
+cdnurl : "http://7pn6ab.com1.z0.glb.clouddn.com"
 homeurl: "http://redrum1900.github.io"
 url: "redrum1900.github.io"
 atom-baseurl: "redrum1900.github.io"
@@ -39,3 +40,6 @@ navigations:
   - title: Rss
     class: fa fa-rss
     href: /atom.xml
+  - title: Movies
+    class: fa fa-rss
+    href: /movies/
