@@ -3,36 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1568e202-d335-4939-81b0-e66b6ba4e8a9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-21-markdown.md" afterPath="$PROJECT_DIR$/_posts/2015-06-21-markdown.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-03-post.md" afterPath="$PROJECT_DIR$/_posts/2015-07-03-post.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-21-git.md" afterPath="$PROJECT_DIR$/_posts/2015-07-21-git.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-22-requirejs.md" afterPath="$PROJECT_DIR$/_posts/2015-07-22-requirejs.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/404.html" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/README.md" afterPath="$PROJECT_DIR$/_site/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories.html" afterPath="$PROJECT_DIR$/categories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/archive/index.html" afterPath="$PROJECT_DIR$/_site/archive/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/categories/index.html" afterPath="$PROJECT_DIR$/_site/categories/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/01/life.html" afterPath="$PROJECT_DIR$/_site/2015/08/01/life.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movies.html" afterPath="$PROJECT_DIR$/movies.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/06/22/post.html" afterPath="$PROJECT_DIR$/_site/2015/06/22/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/06/30/post.html" afterPath="$PROJECT_DIR$/_site/2015/06/30/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/07/04/post.html" afterPath="$PROJECT_DIR$/_site/2015/07/04/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/07/20/post.html" afterPath="$PROJECT_DIR$/_site/2015/07/20/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/06/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/06/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/11/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/11/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/12/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/12/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/13/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/13/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/20/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/20/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/18/sui.html" afterPath="$PROJECT_DIR$/_site/2015/08/18/sui.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/06/21/markdown.html" afterPath="$PROJECT_DIR$/_site/2015/06/21/markdown.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redrum1900.github.io.iws" />
@@ -87,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-06-21-markdown.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2015-06-21-markdown.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-06-21-markdown.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1125">
-              <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.902439" vertical-offset="510" max-vertical-offset="1155">
+              <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -117,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-07-03-post.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2015-07-03-post.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-07-03-post.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09966777" vertical-offset="0" max-vertical-offset="2055">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2055">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -776,14 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-06-21-markdown.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1125">
-          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-06-22-post.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
@@ -810,8 +773,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-07-03-post.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09966777" vertical-offset="0" max-vertical-offset="2055">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2055">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-06-21-markdown.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.902439" vertical-offset="510" max-vertical-offset="1155">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
           <folding />
         </state>
       </provider>
