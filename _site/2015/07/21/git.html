@@ -120,8 +120,22 @@
 
 <p><img src="http://img2.imgtn.bdimg.com/it/u=2996204179,2628677315&amp;fm=21&amp;gp=0.jpg" alt="zhuangbi"></p>
 
-<p>1.</p>
+<p>新的文件夹需要初始化</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">    git init
+</code></pre></div>
+<p>查看文件变更</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">    git status
+</code></pre></div>
+<p>添加文件</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">    git add [filename]      //添加单个文件
 
+    git add -a              //添加所有文件
+</code></pre></div>
+<p>提交变化</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">    git commit -m&quot;注释&quot;
+
+    git commit --amend      //可以修改最后一次提交的信息.但是如果你已经push过了，那么其历史最后一次，永远也不能修改了。
+</code></pre></div>
     </article>
     <!-- Duoshuo Comment BEGIN -->
     <div id="comments">
