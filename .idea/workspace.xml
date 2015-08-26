@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1568e202-d335-4939-81b0-e66b6ba4e8a9" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-23-post.md" afterPath="$PROJECT_DIR$/_posts/2015-08-23-post.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/2015/08/23/post.html" afterPath="$PROJECT_DIR$/_site/2015/08/23/post.html" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-08-23-post.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/atom.xml" afterPath="$PROJECT_DIR$/_site/atom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/archive/index.html" afterPath="$PROJECT_DIR$/_site/archive/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/categories/index.html" afterPath="$PROJECT_DIR$/_site/categories/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tags/index.html" afterPath="$PROJECT_DIR$/_site/tags/index.html" />
+>>>>>>> e80253d1333994e646519498657c4d32a0a91d5c
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redrum1900.github.io.iws" />
@@ -111,8 +121,13 @@
       <file leaf-file-name="2015-08-23-post.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-08-23-post.md">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.64784056" vertical-offset="0" max-vertical-offset="1155">
               <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+=======
+            <state vertical-scroll-proportion="0.9003322" vertical-offset="523" max-vertical-offset="1155">
+              <caret line="71" column="98" selection-start-line="71" selection-start-column="98" selection-end-line="71" selection-end-column="98" />
+>>>>>>> e80253d1333994e646519498657c4d32a0a91d5c
               <folding />
             </state>
           </provider>
@@ -762,8 +777,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-08-23-post.md">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.64784056" vertical-offset="0" max-vertical-offset="1155">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.9003322" vertical-offset="523" max-vertical-offset="1155">
+          <caret line="71" column="98" selection-start-line="71" selection-start-column="98" selection-end-line="71" selection-end-column="98" />
+>>>>>>> e80253d1333994e646519498657c4d32a0a91d5c
           <folding />
         </state>
       </provider>
