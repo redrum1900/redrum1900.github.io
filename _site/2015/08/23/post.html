@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Tags</title>
+<title>图片预加载与图片懒加载</title>
 <link rel="shortcut icon" href="http://7pn6ab.com1.z0.glb.clouddn.com/img/github.ico"/>
 <link rel="bookmark" href="http://7pn6ab.com1.z0.glb.clouddn.com/img/github.ico"/>
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="HTML,CSS">
-<link rel="canonical" href="redrum1900.github.iohttp://7pn6ab.com1.z0.glb.clouddn.com/tags/">
+<link rel="canonical" href="redrum1900.github.iohttp://7pn6ab.com1.z0.glb.clouddn.com/2015/08/23/post.html">
 <!-- Custom CSS -->
 <link rel="stylesheet" href="http://7pn6ab.com1.z0.glb.clouddn.com/css/main.css">
 <link rel="stylesheet" href="http://7pn6ab.com1.z0.glb.clouddn.com/css/github.css">
@@ -111,113 +111,84 @@
         <div class="page-content">
             <div class="wrap">
                 <div class="post">
-
     <header class="post-header">
-        <h1>Tags</h1>
+        <h1><a href="/2015/08/23/post.html">图片预加载与图片懒加载</a></h1>
+        <p class="meta"><i class="fa fa-calendar"></i> 2015-08-23&nbsp&nbsp&nbsp<i class="fa fa-folder-open"></i> <a href="/categories/#前端">前端</a> &nbsp&nbsp&nbsp<i class="fa fa-tags"></i>&nbsp&nbsp<a href="/tags/#优化">优化</a></p>
     </header>
-
     <article class="post-content">
-        <div id='tag_cloud'>
-    
-    <a href="#jquery插件" title="jquery插件" rel="3">jquery插件</a>
-    
-    <a href="#特效" title="特效" rel="4">特效</a>
-    
-    <a href="#文章" title="文章" rel="1">文章</a>
-    
-    <a href="#ionic" title="ionic" rel="2">ionic</a>
-    
-    <a href="#优化" title="优化" rel="1">优化</a>
-    
-</div>
+        <h3>图片预加载</h3>
 
-<ul class="listing">
-    
-    <li class="listing-seperator" id="jquery插件">jquery插件</li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-12">2015-08-12</time>
-    <a href="/2015/08/12/post.html" title="jquery方向悬停效果">jquery方向悬停效果</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-07-20">2015-07-20</time>
-    <a href="/2015/07/20/post.html" title="3D球形特效">3D球形特效</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-06-22">2015-06-22</time>
-    <a href="/2015/06/22/post.html" title="一个简单地倒计时插件">一个简单地倒计时插件</a>
-    </li>
-    
-    
-    <li class="listing-seperator" id="特效">特效</li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-20">2015-08-20</time>
-    <a href="/2015/08/20/post.html" title="css实现360°旋转的">css实现360°旋转的</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-12">2015-08-12</time>
-    <a href="/2015/08/12/post.html" title="jquery方向悬停效果">jquery方向悬停效果</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-07-20">2015-07-20</time>
-    <a href="/2015/07/20/post.html" title="3D球形特效">3D球形特效</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-06-30">2015-06-30</time>
-    <a href="/2015/06/30/post.html" title="CountUp.js 数字动画效果插件">CountUp.js 数字动画效果插件</a>
-    </li>
-    
-    
-    <li class="listing-seperator" id="文章">文章</li>
-    
-    <li class="listing-item">
-    <time datetime="2015-07-03">2015-07-03</time>
-    <a href="/2015/07/03/post.html" title="Web 研发模式演变">Web 研发模式演变</a>
-    </li>
-    
-    
-    <li class="listing-seperator" id="ionic">ionic</li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-13">2015-08-13</time>
-    <a href="/2015/08/13/post.html" title="ionic 安卓平台跨域">ionic 安卓平台跨域</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-06">2015-08-06</time>
-    <a href="/2015/08/06/post.html" title="InAppBrowser使用心得">InAppBrowser使用心得</a>
-    </li>
-    
-    
-    <li class="listing-seperator" id="优化">优化</li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-23">2015-08-23</time>
-    <a href="/2015/08/23/post.html" title="图片预加载与图片懒加载">图片预加载与图片懒加载</a>
-    </li>
-    
-    
-</ul>
+<p>图片预加载主要是针对非icon类图片。</p>
 
-<script src="http://7pn6ab.com1.z0.glb.clouddn.com/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
-<script language="javascript">
-$.fn.tagcloud.defaults = {
-size: {start: 1, end: 1, unit: 'em'},
-      color: {start: '#f8e0e6', end: '#ff3333'}
-};
+<p>加载快，有良好的用户体验。</p>
 
-$(function () {
-        $('#tag_cloud a').tagcloud();
-        });
-</script>
+<p>提前加载图片，当用户需要查看时可直接从本地缓存中渲染、可能因为图片很大，浏览器显示出它会用很长的时间，这样浏览者可能以为图片预览慢而没兴趣浏览，把网页关掉，这时，就需要图片预加载，让浏览区先显示其他的图片（一般使用LOGO）给浏览者看，等图片加载完了之后，再将图片显示。</p>
+
+<p>预加载的意义：预加载可以说是牺牲服务的前段性能，换取更好的用户体验，这样可以使用户的操作得到更快的用户体验。</p>
+
+<h4>实现预载的方法</h4>
+
+<p>实现预载的方法非常多，可以用CSS(background)、JS(Image)、HTML(<img />)都可以。常用的是new Image();，设置其src来实现预载，再使用onload方法回调预载完成事件。只要浏览器把图片下载到本地，同样的src就会使用缓存，这是最基本也是最实用的预载方法。当Image下载完图片头后，会得到宽和高，因此可以在预载前得到图片的大小(可以用计时器轮循宽高变化)。一般实现预载的工具类，都实现一个Array来存需要预载的URL，然后实现Finish、Error、SizeChange等常用事件，可以由用户选择是顺序预载或假并发预载。</p>
+
+<h4>扩展到非图片</h4>
+
+<p>扩展的非图片，主要以DIV为例。一种实现设计模式：我们给需要缓载的DIV加上一个代理类，这样一旦触发其加载事件则会自动的调用代理类进行更新数据。然后将这些需要加载的DIV放入一个集合，计算他们的滚动量，同时设置一个偏移量，然后设置其监视浏览器滚动条，以实现动态缓载</p>
+
+<h3>图片懒加载</h3>
+
+<p>懒加载（有名缓载），延迟加载图片或符合某些条件时才加载某些图片</p>
+
+<p>懒加载的意义：主要目的是作为服务器前段的优化，减少请求或延迟请求的次数。</p>
+
+<p>呈现懒加载的三种形式：</p>
+
+<p>①.纯粹的延时加载，使用setTimeout或者setInterval进行加载延迟，如果用户在加载前就离开了，那么自然就不会进行加载。</p>
+
+<p>②.第二种就是条件加载，符合某些条件，或者触发了某些事件才开始异步加载。</p>
+
+<p>③.第三种就是可视区域加载，仅仅加载用户可以看到的区域，这个主要监控滚动条来实现，一般据用户看到的底边很近的时候开始加载，这样能保证用户下拉的时候图片正好接上，不会有太长时间的停顿。
+使用优点分析</p>
+
+<p>a. 提高网页加载速度，直接影响收录与排名--在蜘蛛抓去的时候，爬行网页会非常快速，以至于页面优化值得到最大提升。</p>
+
+<p>b. 减少请求，降低服务器压力。--只有当用户滚动到可视范围内才加载图片，下载次数减少</p>
+
+<h4>如何使用js懒加载图片</h4>
+
+<p>懒加载图片工具：使用jquery.lazyload.js的机制</p>
+
+<p><a href="http://www.appelsiini.net/projects/lazyload">jquery.lazyload.js</a></p>
+
+<p>js懒加载图片的基本步骤</p>
+
+<p>1.网页中的图片，都设为同一张图片。</p>
+
+<p>2.给图片增加 data-original=&quot;img/example.jpg&quot; 的属性，保存这张图片的真实地址。</p>
+
+<p>3.当滚动条到达用户可视区域后，插件自动改变该区域的图片的src属性为缓存的地址。</p>
+
+<p>4.浏览器加载可视区域图。</p>
+
+<p>注意：</p>
+
+<p>1.增加 data-original=&quot;图片真实地址&quot;</p>
+
+<p>2.页面所有的img标签的src属性指向同一个图片(图片未加载时，显示的一张临时图)</p>
+
+<p>3.图片一定要设置 width 与 height</p>
+
+<p><img src="img/独行冰海.gif" data-original="img/example.jpg" width="480" height="480">
+之后可以直接用插件处理$(&quot;img.lazy&quot;).lazyload(); 当然，也可以自己进行DOM的书写（也不难）</p>
+
+<p><a href="http://blog.163.com/hongshaoguoguo@126/blog/static/180469812014114102332873/?COLLCC=36131570&amp;">原文</a></p>
 
     </article>
+    <!-- Duoshuo Comment BEGIN -->
+    <div id="comments">
+        <div class="ds-thread" data-thread-key="/2015/08/23/post"  data-title="图片预加载与图片懒加载 - Redrum's Blog"></div>
+    </div>
+<!-- Duoshuo Comment END -->
+
 
 </div>
 

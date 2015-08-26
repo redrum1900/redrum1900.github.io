@@ -7,6 +7,18 @@
         <atom:link href="redrum1900.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>图片预加载与图片懒加载</title>
+                        
+                
+                    <description>&lt;h3&gt;图片预加载&lt;/h3&gt;
+</description>
+                
+                <pubDate>Sun, 23 Aug 2015 00:00:00 +0800</pubDate>
+                <link>redrum1900.github.io/2015/08/23/post.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/08/23/post.html</guid>
+            </item>
+        
+            <item>
                 <title>css实现360°旋转的</title>
                         
                 
@@ -111,18 +123,6 @@
                 <pubDate>Tue, 21 Jul 2015 00:00:00 +0800</pubDate>
                 <link>redrum1900.github.io/2015/07/21/git.html</link>
                 <guid isPermaLink="true">redrum1900.github.io/2015/07/21/git.html</guid>
-            </item>
-        
-            <item>
-                <title>3D球形特效</title>
-                        
-                
-                    <description>&lt;audio src=&quot;http://7pn6ab.com1.z0.glb.clouddn.com/music/恋爱循环.mp3&quot; autoplay=&quot;autoplay&quot; loop=&quot;loop&quot;&gt;&lt;/audio&gt;
-</description>
-                
-                <pubDate>Mon, 20 Jul 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/07/20/post.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/07/20/post.html</guid>
             </item>
         
     </channel>
