@@ -7,6 +7,18 @@
         <atom:link href="redrum1900.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>Ionic Lab——一个全新的Ionic IDE</title>
+                        
+                
+                    <description>&lt;p&gt;&lt;a href=&quot;http://cnionic.com/web/index.php?s=/news/index/detail/id/8.html&quot;&gt;原文地址&lt;/a&gt;&lt;/p&gt;
+</description>
+                
+                <pubDate>Fri, 28 Aug 2015 00:00:00 +0800</pubDate>
+                <link>redrum1900.github.io/2015/08/28/post.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/08/28/post.html</guid>
+            </item>
+        
+            <item>
                 <title>图片预加载与图片懒加载</title>
                         
                 
@@ -111,18 +123,6 @@
                 <pubDate>Wed, 22 Jul 2015 00:00:00 +0800</pubDate>
                 <link>redrum1900.github.io/2015/07/22/requirejs.html</link>
                 <guid isPermaLink="true">redrum1900.github.io/2015/07/22/requirejs.html</guid>
-            </item>
-        
-            <item>
-                <title>GIT常用命令（慢慢添加，现在啥也没有）</title>
-                        
-                
-                    <description>&lt;p&gt;比较常用的git命令，“真“常用，基本满足工作学习使用，那么开整&lt;/p&gt;
-</description>
-                
-                <pubDate>Tue, 21 Jul 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/07/21/git.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/07/21/git.html</guid>
             </item>
         
     </channel>
