@@ -120,21 +120,62 @@
 
 <p><img src="http://img2.imgtn.bdimg.com/it/u=2996204179,2628677315&amp;fm=21&amp;gp=0.jpg" alt="zhuangbi"></p>
 
-<p>新的文件夹需要初始化</p>
+<p>新的文件夹需要初始化，不初始化不行</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">    git init
 </code></pre></div>
 <p>查看文件变更</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">    git status
 </code></pre></div>
-<p>添加文件</p>
+<p>添加变更</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">    git add [filename]      //添加单个文件
 
-    git add -a              //添加所有文件
+    git add .               //添加变更的文件，不包括删除的
+
+    git add -u              //添加删除的文件，不包括新的的
+
+    git add -a              //添加全部文件，我一般用这个，比较方便（懒）
 </code></pre></div>
-<p>提交变化</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">    git commit -m&quot;注释&quot;
+<p>提交变更</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">    git commit -m&quot;注释&quot;      //建议最好加上注释，这样方便管理，也不要用ddd,sdas,asdasd,fdsfsdf,asfdkjahsda等等乱码代替，
+                            //不光自己看不懂，别人也看不懂
 
     git commit --amend      //可以修改最后一次提交的信息.但是如果你已经push过了，那么其历史最后一次，永远也不能修改了。
+</code></pre></div>
+<p>删除变更</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">    git rm [filename]       //删除文件，并把它从git的仓库管理系统中移除
+
+    git rm -r [folder]      //删除文件夹，并把它从git的仓库管理系统中移除
+
+    git rm --cached         //仅仅从git的仓库管理系统中移除，不删除文件。一般情况使用这个比较多
+</code></pre></div>
+<h4>.gitignore 配置</h4>
+
+<p>.gitignore 配置文件用于配置不需要加入版本管理的文件，通过配置来过滤掉不想添加到库的文件，使用起来很方便</p>
+
+<p>文件 .gitignore 的格式规范如下：</p>
+
+<ul>
+<li><p>所有空行或者以注释符号 ＃ 开头的行都会被 Git 忽略。</p></li>
+<li><p>可以使用标准的 glob 模式匹配。</p></li>
+<li><p>匹配模式最后跟反斜杠（/）说明要忽略的是目录。</p></li>
+<li><p>要忽略指定模式以外的文件或目录，可以在模式前加上惊叹号（!）取反。</p></li>
+</ul>
+
+<p>具体用法需要用心去体会</p>
+
+<p><img src="http://img3.imgtn.bdimg.com/it/u=646315402,2366546195&amp;fm=21&amp;gp=0.jpg" alt=""></p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">    .DS_Store
+    Thumbs.db
+    db.json
+    *.log
+    node_modules/
+    public/
+    .deploy*/
+    Twd
+    _site/Twd
+    js
+    css
+    img
 </code></pre></div>
     </article>
     <!-- Duoshuo Comment BEGIN -->
