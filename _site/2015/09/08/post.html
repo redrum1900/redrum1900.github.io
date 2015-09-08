@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Tags</title>
+<title>避免“空比较”</title>
 <link rel="shortcut icon" href="http://7pn6ab.com1.z0.glb.clouddn.com/img/github.ico"/>
 <link rel="bookmark" href="http://7pn6ab.com1.z0.glb.clouddn.com/img/github.ico"/>
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="HTML,CSS">
-<link rel="canonical" href="redrum1900.github.iohttp://7pn6ab.com1.z0.glb.clouddn.com/tags/">
+<link rel="canonical" href="redrum1900.github.iohttp://7pn6ab.com1.z0.glb.clouddn.com/2015/09/08/post.html">
 <!-- Custom CSS -->
 <link rel="stylesheet" href="http://7pn6ab.com1.z0.glb.clouddn.com/css/main.css">
 <link rel="stylesheet" href="http://7pn6ab.com1.z0.glb.clouddn.com/css/github.css">
@@ -111,128 +111,159 @@
         <div class="page-content">
             <div class="wrap">
                 <div class="post">
-
     <header class="post-header">
-        <h1>Tags</h1>
+        <h1><a href="/2015/09/08/post.html">避免“空比较”</a></h1>
+        <p class="meta"><i class="fa fa-calendar"></i> 2015-09-08&nbsp&nbsp&nbsp<i class="fa fa-folder-open"></i> <a href="/categories/#前端">前端</a> &nbsp&nbsp&nbsp<i class="fa fa-tags"></i>&nbsp&nbsp<a href="/tags/#js">js</a></p>
     </header>
-
     <article class="post-content">
-        <div id='tag_cloud'>
-    
-    <a href="#jquery插件" title="jquery插件" rel="3">jquery插件</a>
-    
-    <a href="#特效" title="特效" rel="4">特效</a>
-    
-    <a href="#文章" title="文章" rel="1">文章</a>
-    
-    <a href="#ionic" title="ionic" rel="3">ionic</a>
-    
-    <a href="#优化" title="优化" rel="1">优化</a>
-    
-    <a href="#js" title="js" rel="1">js</a>
-    
-</div>
+        <p>避免与null进行比较，因为返回的值有可能是字符串或数字</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">var controller = {
+    process:function(items){
+        if(items !== null)
+        {
+            items.sort();
+            items.forEach(function(item){
+                //dosomething();
+            })
+        }
+    }
+}
+</code></pre></div>
+<h3>1.检测原始值</h3>
 
-<ul class="listing">
-    
-    <li class="listing-seperator" id="jquery插件">jquery插件</li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-12">2015-08-12</time>
-    <a href="/2015/08/12/post.html" title="jquery方向悬停效果">jquery方向悬停效果</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-07-20">2015-07-20</time>
-    <a href="/2015/07/20/post.html" title="3D球形特效">3D球形特效</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-06-22">2015-06-22</time>
-    <a href="/2015/06/22/post.html" title="一个简单地倒计时插件">一个简单地倒计时插件</a>
-    </li>
-    
-    
-    <li class="listing-seperator" id="特效">特效</li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-20">2015-08-20</time>
-    <a href="/2015/08/20/post.html" title="css实现360°旋转的">css实现360°旋转的</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-12">2015-08-12</time>
-    <a href="/2015/08/12/post.html" title="jquery方向悬停效果">jquery方向悬停效果</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-07-20">2015-07-20</time>
-    <a href="/2015/07/20/post.html" title="3D球形特效">3D球形特效</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-06-30">2015-06-30</time>
-    <a href="/2015/06/30/post.html" title="CountUp.js 数字动画效果插件">CountUp.js 数字动画效果插件</a>
-    </li>
-    
-    
-    <li class="listing-seperator" id="文章">文章</li>
-    
-    <li class="listing-item">
-    <time datetime="2015-07-03">2015-07-03</time>
-    <a href="/2015/07/03/post.html" title="Web 研发模式演变">Web 研发模式演变</a>
-    </li>
-    
-    
-    <li class="listing-seperator" id="ionic">ionic</li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-28">2015-08-28</time>
-    <a href="/2015/08/28/post.html" title="Ionic Lab——一个全新的Ionic IDE">Ionic Lab——一个全新的Ionic IDE</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-13">2015-08-13</time>
-    <a href="/2015/08/13/post.html" title="ionic 安卓平台跨域">ionic 安卓平台跨域</a>
-    </li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-06">2015-08-06</time>
-    <a href="/2015/08/06/post.html" title="InAppBrowser使用心得">InAppBrowser使用心得</a>
-    </li>
-    
-    
-    <li class="listing-seperator" id="优化">优化</li>
-    
-    <li class="listing-item">
-    <time datetime="2015-08-23">2015-08-23</time>
-    <a href="/2015/08/23/post.html" title="图片预加载与图片懒加载">图片预加载与图片懒加载</a>
-    </li>
-    
-    
-    <li class="listing-seperator" id="js">js</li>
-    
-    <li class="listing-item">
-    <time datetime="2015-09-08">2015-09-08</time>
-    <a href="/2015/09/08/post.html" title="避免“空比较”">避免“空比较”</a>
-    </li>
-    
-    
+<h6>使用typeof</h6>
+
+<ul>
+<li><p>字符返回 “string&quot;</p></li>
+<li><p>数字返回  &quot;number&quot;</p></li>
+<li><p>布尔值返回  &quot;boolean&quot;</p></li>
+<li><p>undefined返回  “undefined”</p></li>
 </ul>
 
-<script src="http://7pn6ab.com1.z0.glb.clouddn.com/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
-<script language="javascript">
-$.fn.tagcloud.defaults = {
-size: {start: 1, end: 1, unit: 'em'},
-      color: {start: '#f8e0e6', end: '#ff3333'}
-};
+<h6>语法</h6>
+<div class="highlight"><pre><code class="language-text" data-lang="text">typeof variable
+typeof(varibale)
+</code></pre></div>
+<h3>2.检测引用值</h3>
 
-$(function () {
-        $('#tag_cloud a').tagcloud();
-        });
-</script>
+<p>但是typeof并不是万能的，它只能用来检测原始值，object，array，date，error这些引用值就无法识别，这些类型返回的都是object，这样就出现问题了。</p>
+
+<p>所以检测引用值则使用instanceof</p>
+
+<h6>语法</h6>
+<div class="highlight"><pre><code class="language-text" data-lang="text">value instance constructor
+</code></pre></div>
+<h6>例子</h6>
+<div class="highlight"><pre><code class="language-text" data-lang="text">if(value instanceof Date)
+{
+    console.log(value.getFullYear());
+}
+
+if(value instanceof RegExp)
+{
+    if(value.test(anotherValue))
+    {
+        console.log(&#39;matches&#39;)
+    }
+}
+
+if(value instanceof Error)
+{
+    throw value;
+}
+</code></pre></div>
+<p>然而还需要注意，因为每个对象都是继承object，所以…………value instance Object 都会返回true</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">var now = new Date();
+console.log(now instanceof Object); // true
+console.log(now instanceof Date);   // true
+</code></pre></div>
+<h5>自定义类型检测</h5>
+<div class="highlight"><pre><code class="language-text" data-lang="text">function Person(name){
+    this.name = name;
+}
+
+var name = Person(&#39;name&#39;);
+
+console.log(name instanceof Object);//true
+console.log(name instanceof Person);//true
+</code></pre></div>
+<p>如何检测函数和数组额外说</p>
+
+<h4>2.1检测函数</h4>
+
+<p>javascript中函数属于引用类型，所以可以这样</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">function myFunction(){}
+console.log(myFunc instanceof Function);//true
+</code></pre></div>
+<p>但是方法不可以跨帧使用，因为每个帧都有各自的Function构造函数。好在typeof运算符可以用于函数，返回’function’
+所以……</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">function myFunc(){}
+console.log(type myFunc ===  “function”);//true
+</code></pre></div>
+<p>这样就可以避免无法跨帧的问题。</p>
+
+<h3>2.2数组检测</h3>
+
+<p>“鸭式辨法”
+数组是唯一包含sort()方法的对象，那么就可以通过检测sort()方法是否存在来判定是不是array类型了</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">function isArray(arr){
+    return typeof arr.sort() === &quot;function&quot;;
+}
+</code></pre></div>
+<p>Kangax提出的方案</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">function isArray(value)
+{
+    return Object.prototype.toString.call(value) === &#39;[object Array]&#39;;
+}
+Array.isArray()也可以检测一个值是否是一个数组
+function isArray(value)
+{
+    if (typeof Array.isArray() === &#39;function&#39;)
+    {
+        return Array.isArray(value);
+    } else {
+        return Object.prototype.toString.call(value) === &#39;[object Array]&#39;
+    }
+}
+</code></pre></div>
+<h4>3.检测属性</h4>
+
+<p>检测一个属性是否在对象中存在</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">var object = {
+    count:&#39;0&#39;,
+    relate:null
+}
+
+if (&quot;count&quot; in object)
+{
+    //dosomething
+}
+
+if (&quot;relate&quot; in object)
+{
+    //dosomething
+}
+</code></pre></div>
+<p>如果只是都想知道属性是否在对象里，使用hasOwnProperty()</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">//所有非dom对象
+if (object.hasOwnProperty(&quot;relate&quot;)){
+    //dosomething
+}
+
+//不确定是不是dom对象
+if (&quot;hasOwnProperty&quot; in object &amp;&amp; object.hasOwnProperty(&quot;relate&quot;)){
+    //dosomething
+}
+</code></pre></div>
+<p>参考书籍《编写可维护的javascript》</p>
 
     </article>
+    <!-- Duoshuo Comment BEGIN -->
+    <div id="comments">
+        <div class="ds-thread" data-thread-key="/2015/09/08/post"  data-title="避免“空比较” - Redrum's Blog"></div>
+    </div>
+<!-- Duoshuo Comment END -->
+
 
 </div>
 
