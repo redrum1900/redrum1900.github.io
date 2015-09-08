@@ -116,8 +116,9 @@
         <p class="meta"><i class="fa fa-calendar"></i> 2015-09-08&nbsp&nbsp&nbsp<i class="fa fa-folder-open"></i> <a href="/categories/#前端">前端</a> &nbsp&nbsp&nbsp<i class="fa fa-tags"></i>&nbsp&nbsp<a href="/tags/#js">js</a></p>
     </header>
     <article class="post-content">
-        <p>避免与null进行比较，因为返回的值有可能是字符串或数字</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">var controller = {
+        <p>避免与null进行比较，因为与null比较并不能真正的避免错误的发生，返回的值有可能是字符串或数字，甚至可能是任意对象，之后方法就可能会出现一些错误。</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">//  这是不好的写法
+var controller = {
     process:function(items){
         if(items !== null)
         {
@@ -204,19 +205,21 @@ console.log(type myFunc ===  “function”);//true
 
 <h3>2.2数组检测</h3>
 
-<p>“鸭式辨法”
-数组是唯一包含sort()方法的对象，那么就可以通过检测sort()方法是否存在来判定是不是array类型了</p>
+<h5>“鸭式辨法”</h5>
+
+<p>数组是唯一包含sort()方法的对象，那么就可以通过检测sort()方法是否存在来判定是不是array类型了</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">function isArray(arr){
     return typeof arr.sort() === &quot;function&quot;;
 }
 </code></pre></div>
-<p>Kangax提出的方案</p>
+<h5>Kangax提出的方案</h5>
 <div class="highlight"><pre><code class="language-text" data-lang="text">function isArray(value)
 {
     return Object.prototype.toString.call(value) === &#39;[object Array]&#39;;
 }
-Array.isArray()也可以检测一个值是否是一个数组
-function isArray(value)
+</code></pre></div>
+<h5>Array.isArray()也可以检测一个值是否是一个数组</h5>
+<div class="highlight"><pre><code class="language-text" data-lang="text">function isArray(value)
 {
     if (typeof Array.isArray() === &#39;function&#39;)
     {
@@ -255,7 +258,7 @@ if (&quot;hasOwnProperty&quot; in object &amp;&amp; object.hasOwnProperty(&quot;
     //dosomething
 }
 </code></pre></div>
-<p>参考书籍《编写可维护的javascript》</p>
+<p>大致以上这些，有错误和不足的地方帮忙纠正下。:cold_sweat:</p>
 
     </article>
     <!-- Duoshuo Comment BEGIN -->

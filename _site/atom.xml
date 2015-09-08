@@ -10,7 +10,7 @@
                 <title>避免“空比较”</title>
                         
                 
-                    <description>&lt;p&gt;避免与null进行比较，因为返回的值有可能是字符串或数字&lt;/p&gt;
+                    <description>&lt;p&gt;避免与null进行比较，因为与null比较并不能真正的避免错误的发生，返回的值有可能是字符串或数字，甚至可能是任意对象，之后方法就可能会出现一些错误。&lt;/p&gt;
 </description>
                 
                 <pubDate>Tue, 08 Sep 2015 00:00:00 +0800</pubDate>
