@@ -116,9 +116,11 @@
         <p class="meta"><i class="fa fa-calendar"></i> 2015-09-24&nbsp&nbsp&nbsp<i class="fa fa-folder-open"></i> <a href="/categories/#前端">前端</a> &nbsp&nbsp&nbsp<i class="fa fa-tags"></i>&nbsp&nbsp<a href="/tags/#gulp">gulp</a></p>
     </header>
     <article class="post-content">
-        <p><strong>Grunt靠边，全新的建构工具来了。Gulp的code-over-configuration不只让撰写任务(tasks)更加容易，也更好阅读及维护。</strong></p>
+        <p>浏览网站时发现的一个关于gulp使用的文章，基本的功能还是很详细的，<a href="http://www.techug.com/gulp">转载</a>过来.有些词语翻译的有点奇怪，我稍微修改了一下。</p>
 
-<p>Glup使用node.js串流(streams)让建构更快速，不须写出资料到硬盘的暂存档案/目录。如果你想了解更多有关串流–虽然不是必须的–你可以阅读<a href="https://github.com/substack/stream-handbook">这篇文章</a>。Gulp利用来源档案当作输入，串流到一群外挂(plugins)，最后取得输出的结果，并非配置每一个外挂的输入与输出–就像Grunt。让我们来看个范例，分别在Gulp及Grunt建构Sass：</p>
+<p>Grunt靠边，全新的建构工具来了。Gulp的code-over-configuration不只让撰写任务(tasks)更加容易，也更好阅读及维护。</p>
+
+<p>Glup使用node.js串流(streams)让建构更快速，不须写出资料到硬盘的暂存档案/目录。如果你想了解更多有关串流–虽然不是必须的–你可以阅读<a href="https://github.com/substack/stream-handbook">这篇文章</a>。Gulp利用来源档案当作输入，串流到一群插件(plugins)，最后取得输出的结果，并非配置每一个插件的输入与输出–就像Grunt。让我们来看个范例，分别在Gulp及Grunt建构Sass：</p>
 
 <p>Grunt:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">    sass: {
@@ -146,7 +148,7 @@
 
     grunt.registerTask(&#39;styles&#39;, [&#39;sass&#39;, &#39;autoprefixer&#39;]);
 </code></pre></div>
-<p>Grunt需要各别配置外挂，指定其来源与目的路径。例如，我们将一个档案作为外挂Sass的输入，并储存输出结果。在设置Autoprefixer时，需要将Sass的输出结果作为输入，产生出一个新档案。来看看在Gulp中同样的配置：</p>
+<p>Grunt需要各别配置插件，指定其来源与目的路径。例如，我们将一个档案作为插件Sass的输入，并储存输出结果。在设置Autoprefixer时，需要将Sass的输出结果作为输入，产生出一个新档案。来看看在Gulp中同样的配置：</p>
 
 <p>Gulp:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">    gulp.task(&#39;sass&#39;, function() {
@@ -156,7 +158,7 @@
         .pipe(gulp.dest(&#39;dist/assets/css&#39;))
     });
 </code></pre></div>
-<p>在Gulp中我们只需要输入一个档案即可。经过外挂Sass处理，再传到外挂Autoprefixer，最终取得一个档案。这样的流程加快建构过程，省去读取及写出不必要的档案，只需要最终的一个档案。</p>
+<p>在Gulp中我们只需要输入一个档案即可。经过插件Sass处理，再传到插件Autoprefixer，最终取得一个档案。这样的流程加快建构过程，省去读取及写出不必要的档案，只需要最终的一个档案。</p>
 
 <p>所以，有趣了，现在要？让我们开始安装gulp并建立一个基本的gulpfile，包含几个核心任务来作为入门吧。</p>
 
@@ -170,9 +172,9 @@
 </code></pre></div>
 <p>上述指令将gulp安装到本地端的专案内，并纪录于<code>package.json</code>内的<code>devDependencies</code>物件。</p>
 
-<h2>安装gulp外挂</h2>
+<h2>安装gulp插件</h2>
 
-<p>接著安装一些外挂，完成下列任务：</p>
+<p>接著安装一些插件，完成下列任务：</p>
 
 <ul>
 <li>编译Sass <a href="https://github.com/sindresorhus/gulp-ruby-sass">gulp-ruby-sass</a></li>
@@ -188,14 +190,14 @@
 <li>更动通知 <a href="https://github.com/mikaelbr/gulp-notify">gulp-notify</a></li>
 </ul>
 
-<p>执行下列指令来安装这些外挂:</p>
+<p>执行下列指令来安装这些插件:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">    $ npm install gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-jshint gulp-concat gulp-uglify gulp-imagemin gulp-clean gulp-notify gulp-rename gulp-livereload gulp-cache --save-dev
 </code></pre></div>
-<p>指令将会安装必要的外挂，并纪录于<code>package.json</code>内的<code>devDependencies</code>物件。完整的gulp外挂清单可以在<a href="http://gratimax.github.io/search-gulp-plugins/">这裡</a>找到。</p>
+<p>指令将会安装必要的插件，并纪录于<code>package.json</code>内的<code>devDependencies</code>物件。完整的gulp插件清单可以在<a href="http://gratimax.github.io/search-gulp-plugins/">这裡</a>找到。</p>
 
-<h2>载入外挂</h2>
+<h2>载入插件</h2>
 
-<p>接下来，我们需要建立一个<code>gulpfile.js</code>档案，并且载入这些外挂：</p>
+<p>接下来，我们需要建立一个<code>gulpfile.js</code>档案，并且载入这些插件：</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">    var gulp = require(&#39;gulp&#39;),
         sass = require(&#39;gulp-ruby-sass&#39;),
         autoprefixer = require(&#39;gulp-autoprefixer&#39;),
@@ -210,9 +212,9 @@
         cache = require(&#39;gulp-cache&#39;),
         livereload = require(&#39;gulp-livereload&#39;);
 </code></pre></div>
-<p>呼！看起来比Grunt有更多的事要做，对吧？Gulp外挂跟Grunt外挂有些许差异–它被设计成做一件事并且做好一件事。例如；Grunt的imagemin利用快取来避免重複压缩已经压缩好的图片。在Gulp中，这必须透过一个快取外挂来达成，当然，快取外挂也可以拿来快取其他东西。这让建构过程中增加了额外的弹性层面。蛮酷的，哼？</p>
+<p>呼！看起来比Grunt有更多的事要做，对吧？Gulp插件跟Grunt插件有些许差异–它被设计成做一件事并且做好一件事。例如；Grunt的imagemin利用快取来避免重複压缩已经压缩好的图片。在Gulp中，这必须透过一个快取插件来达成，当然，快取插件也可以拿来快取其他东西。这让建构过程中增加了额外的弹性层面。蛮酷的，哼？</p>
 
-<p>我们也可以像Grunt一样<a href="https://github.com/jackfranklin/gulp-load-tasks">自动载入</a>所有已安装的外挂，但这不在此文章目的，所以我们将维持在手动的方式。</p>
+<p>我们也可以像Grunt一样<a href="https://github.com/jackfranklin/gulp-load-tasks">自动载入</a>所有已安装的插件，但这不在此文章目的，所以我们将维持在手动的方式。</p>
 
 <h2>建立任务</h2>
 
@@ -239,7 +241,7 @@
 <p>这个<code>gulp.src</code>API用来定义一个或多个来源档案。允许使用glob样式，例如<code>/**/*.scss</code>比对多个符合的档案。传回的串流(stream)让它成为非同步机制，所以在我们收到完成通知之前，确保该任务已经全部完成。</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">    .pipe(sass({ style: &#39;expanded&#39; }))
 </code></pre></div>
-<p>使用<code>pipe()</code>来串流来源档案到某个外挂。外挂的选项通常在它们各自的Github页面中可以找到。上面列表中我有留下各个外挂的连结，让你方便使用。</p>
+<p>使用<code>pipe()</code>来串流来源档案到某个插件。插件的选项通常在它们各自的Github页面中可以找到。上面列表中我有留下各个插件的连结，让你方便使用。</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">    .pipe(gulp.dest(&#39;dist/assets/css&#39;));
 </code></pre></div>
 <p>这个<code>gulp.dest()</code>API是用来设定目的路径。一个任务可以有多个目的地，一个用来输出扩展的版本，一个用来输出缩小化的版本。这个在上述的<code>styles</code>任务中已经有展示。</p>
@@ -273,7 +275,7 @@
         .pipe(notify({ message: &#39;Images task complete&#39; }));
     });
 </code></pre></div>
-<p>这会将对所有来源图片进行<code>imagemin</code>处理。我们可以稍微更进一步，利用快取保存已经压缩过的图片，以便每次进行此任务时不需要再重新压缩。这裡只需要<a href="https://github.com/jgable/gulp-cache">gulp-cache</a>外挂–稍早已经安装。我们需要额外设置才能使用这个外挂，因此修改这段程式码:</p>
+<p>这会将对所有来源图片进行<code>imagemin</code>处理。我们可以稍微更进一步，利用快取保存已经压缩过的图片，以便每次进行此任务时不需要再重新压缩。这裡只需要<a href="https://github.com/jgable/gulp-cache">gulp-cache</a>插件–稍早已经安装。我们需要额外设置才能使用这个插件，因此修改这段程式码:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">    .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
 </code></pre></div>
 <p>成为这段:</p>
@@ -335,12 +337,12 @@
 
     });
 </code></pre></div>
-<p>为了让这个功能有效，除了伺服器之外，还需要安装并启用LiveReload的浏览器外挂。或者你也可以手动加上这个<a href="http://feedback.livereload.com/knowledgebase/articles/86180-how-do-i-add-the-script-tag-manually-">片段程式码</a>。</p>
+<p>为了让这个功能有效，除了伺服器之外，还需要安装并启用LiveReload的浏览器插件。或者你也可以手动加上这个<a href="http://feedback.livereload.com/knowledgebase/articles/86180-how-do-i-add-the-script-tag-manually-">片段程式码</a>。</p>
 
 <h2>全部在一起</h2>
 
 <p>这裡是完整的gulpfile:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">    // 载入外挂
+<div class="highlight"><pre><code class="language-text" data-lang="text">    // 载入插件
     var gulp = require(&#39;gulp&#39;),
         sass = require(&#39;gulp-ruby-sass&#39;),
         autoprefixer = require(&#39;gulp-autoprefixer&#39;),
