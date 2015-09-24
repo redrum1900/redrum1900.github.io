@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>404</title>
+<title>事件处理方法</title>
 <link rel="shortcut icon" href="http://7pn6ab.com1.z0.glb.clouddn.com/img/github.ico"/>
 <link rel="bookmark" href="http://7pn6ab.com1.z0.glb.clouddn.com/img/github.ico"/>
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="HTML,CSS">
-<link rel="canonical" href="redrum1900.github.iohttp://7pn6ab.com1.z0.glb.clouddn.com/404.html">
+<link rel="canonical" href="redrum1900.github.iohttp://7pn6ab.com1.z0.glb.clouddn.com/2015/09/07/post.html">
 <!-- Custom CSS -->
 <link rel="stylesheet" href="http://7pn6ab.com1.z0.glb.clouddn.com/css/main.css">
 <link rel="stylesheet" href="http://7pn6ab.com1.z0.glb.clouddn.com/css/github.css">
@@ -18,8 +18,6 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <script src="http://7pn6ab.com1.z0.glb.clouddn.com/js/jquery-1.11.3.min.js"></script>
 <script src="http://7pn6ab.com1.z0.glb.clouddn.com/js/function_about.js"></script>
-<!--  -->
-<!-- <meta http-equiv="refresh" content="5; url=/"> -->
 <!--  -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -113,16 +111,47 @@
         <div class="page-content">
             <div class="wrap">
                 <div class="post">
-
     <header class="post-header">
-        <h1>404</h1>
+        <h1><a href="/2015/09/07/post.html">事件处理方法</a></h1>
+        <p class="meta"><i class="fa fa-calendar"></i> 2015-09-07&nbsp&nbsp&nbsp<i class="fa fa-folder-open"></i> <a href="/categories/#前端">前端</a> &nbsp&nbsp&nbsp<i class="fa fa-tags"></i>&nbsp&nbsp<a href="/tags/#js">js</a></p>
     </header>
-
     <article class="post-content">
-        <!-- search children -->
-<!--<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8"></script>-->
-<img src="http://i1.hoopchina.com.cn/blogfile/201411/06/BbsImg141523195885202_480*330.jpg">
+        <h4>先看代码：</h4>
+<div class="highlight"><pre><code class="language-text" data-lang="text">var myapplation = {
+    handleClick: function(event){
+        event.preventDefault();
+        event.stopPropagation();
+
+        this.showPopup(event.clientX,event.clientY);
+    },
+    showPopup: function(x,y){
+      var pop = document.getElementById(&#39;popup&#39;);
+        popup.style.left = x + &#39;px&#39;;
+        popup.style.top = y + &#39;px&#39;;
+        popup.className = &#39;reveal&#39;;
+    }
+};
+</code></pre></div>
+<h4>规则1：隔离应用逻辑</h4>
+
+<p>这样写法可以很好地把应用逻辑分开，每个方法只处理各自的事件，方便阅读和后期管理</p>
+
+<h4>股则2：不要分发事件对象</h4>
+
+<p>不要每个方法都直接传入event对象，将event作为参数并不能告诉你那些是有用的参数，是用来干什么，这样会很不明确</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">myapplation.showPopup(10,10);//这样写方法可以直接调用会方便很多
+
+addListener(element,&#39;click&#39;,function(event){
+    myapplation.handleClick(event);
+})
+</code></pre></div>
     </article>
+    <!-- Duoshuo Comment BEGIN -->
+    <div id="comments">
+        <div class="ds-thread" data-thread-key="/2015/09/07/post"  data-title="事件处理方法 - Redrum's Blog"></div>
+    </div>
+<!-- Duoshuo Comment END -->
+
 
 </div>
 

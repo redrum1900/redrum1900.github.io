@@ -7,6 +7,30 @@
         <atom:link href="redrum1900.github.io/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>Gulp使用指南</title>
+                        
+                
+                    <description>&lt;p&gt;&lt;strong&gt;Grunt靠边，全新的建构工具来了。Gulp的code-over-configuration不只让撰写任务(tasks)更加容易，也更好阅读及维护。&lt;/strong&gt;&lt;/p&gt;
+</description>
+                
+                <pubDate>Thu, 24 Sep 2015 00:00:00 +0800</pubDate>
+                <link>redrum1900.github.io/2015/09/24/gulp.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/09/24/gulp.html</guid>
+            </item>
+        
+            <item>
+                <title>ionic手势事件Gesture</title>
+                        
+                
+                    <description>&lt;h4&gt;$ionicGesture&lt;/h4&gt;
+</description>
+                
+                <pubDate>Tue, 15 Sep 2015 00:00:00 +0800</pubDate>
+                <link>redrum1900.github.io/2015/09/15/ionic.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/09/15/ionic.html</guid>
+            </item>
+        
+            <item>
                 <title>避免“空比较”</title>
                         
                 
@@ -16,6 +40,18 @@
                 <pubDate>Tue, 08 Sep 2015 00:00:00 +0800</pubDate>
                 <link>redrum1900.github.io/2015/09/08/post.html</link>
                 <guid isPermaLink="true">redrum1900.github.io/2015/09/08/post.html</guid>
+            </item>
+        
+            <item>
+                <title>事件处理方法</title>
+                        
+                
+                    <description>&lt;h4&gt;先看代码：&lt;/h4&gt;
+</description>
+                
+                <pubDate>Mon, 07 Sep 2015 00:00:00 +0800</pubDate>
+                <link>redrum1900.github.io/2015/09/07/post.html</link>
+                <guid isPermaLink="true">redrum1900.github.io/2015/09/07/post.html</guid>
             </item>
         
             <item>
@@ -88,42 +124,6 @@
                 <pubDate>Wed, 12 Aug 2015 00:00:00 +0800</pubDate>
                 <link>redrum1900.github.io/2015/08/12/post.html</link>
                 <guid isPermaLink="true">redrum1900.github.io/2015/08/12/post.html</guid>
-            </item>
-        
-            <item>
-                <title>beyond compare mac 破解版 一款强大的文件对比软件</title>
-                        
-                
-                    <description>&lt;p&gt;Beyond Compare是一套超级的文件及文件夹(目录)的比较工具，不仅可以快速比较出两个目录的不同，还可以比较每个文件的内容，而且可以任意显示比较结果。程序内建了文件浏览器，方便您对文件、文件夹、压缩包、FTP网站之间的差异比对以及资料同步。使用它可以管理源代码，保持文件夹的同步，比较程序输出，及验证光盘的复制。它还支持脚本、插件，尤其对中文支持很好。&lt;/p&gt;
-</description>
-                
-                <pubDate>Tue, 11 Aug 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/08/11/post.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/08/11/post.html</guid>
-            </item>
-        
-            <item>
-                <title>InAppBrowser使用心得</title>
-                        
-                
-                    <description>&lt;p&gt;&lt;strong&gt;1.安装inAppBrowser&lt;/strong&gt;&lt;/p&gt;
-</description>
-                
-                <pubDate>Thu, 06 Aug 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/08/06/post.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/08/06/post.html</guid>
-            </item>
-        
-            <item>
-                <title>我想去</title>
-                        
-                
-                    <description>&lt;p&gt;&lt;img src=&quot;http://www.ctps.cn/PhotoNet/Profiles2011/20120802/2012822136564556.jpg&quot; alt=&quot;w&quot;&gt;&lt;/p&gt;
-</description>
-                
-                <pubDate>Sat, 01 Aug 2015 00:00:00 +0800</pubDate>
-                <link>redrum1900.github.io/2015/08/01/life.html</link>
-                <guid isPermaLink="true">redrum1900.github.io/2015/08/01/life.html</guid>
             </item>
         
     </channel>
