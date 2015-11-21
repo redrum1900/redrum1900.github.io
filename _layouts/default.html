@@ -38,15 +38,15 @@ var duoshuoQuery = {short_name:"redrum"};
         <!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.js"></script>-->
         <script type="text/javascript">
     $(window).scroll(function() {
-    if($(this).scrollTop() > 70) {
-        $('.scroll-top').fadeIn(200);
-//        $('.scroll-top').fadeIn(200);
-        $('.site-header').css({ 'box-shadow' : '0 0px 10px rgba(0, 0, 0, 0.3)'});
-    } else {
-        $('.scroll-top').fadeOut(200);
-        $('.site-header').css({ 'box-shadow' : '0 0px 0px rgba(0, 0, 0, 0.3)'});
-    }
-});
+        if($(this).scrollTop() > 70) {
+            $('.scroll-top').fadeIn(200);
+    //        $('.scroll-top').fadeIn(200);
+            $('.site-header').css({ 'box-shadow' : '0 0px 10px rgba(0, 0, 0, 0.3)'});
+        } else {
+            $('.scroll-top').fadeOut(200);
+            $('.site-header').css({ 'box-shadow' : '0 0px 0px rgba(0, 0, 0, 0.3)'});
+        }
+    });
 $('.scroll-top').bind('click', function(e) {
     e.preventDefault();
     $('body,html').animate({scrollTop:0},200);
